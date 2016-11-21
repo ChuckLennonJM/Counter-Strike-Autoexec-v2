@@ -1,0 +1,42 @@
+
+
+RCTRL (MasterSwitch) (Toggle) :
+Appui 1 fois : Active Commandes
+Appui 2 fois : Désactive Commandes
+Toutes Commandes secondaires
+
+RSHIFT (Après RCTRL) (Toggle) :
+Appui 1 fois : Active Commandes Server
+Appui 2 fois : Désactive Commandes Server
+Commandes Server : F1-F12
+
+F1-F8 : Configurations prédéfinies
+F9-F12 : Différents Games modes (Ranked, Casual, Arm Race, Demolition; Deathmatch; Guardian)
+
+BACKSPACE (Après CTRL) (Toggle) :
+Pavé numérique (kp_*) : Appui 1 fois : Active Touches scripts
+Appui 2 fois : Désactive Touches scripts
+
+ENTER (Après CTRL) (Toggle)
+//Autres Commandes, à voir
+
+Rien :
+Commandes Permanentes
+
+Tout le clavier
+
+REORGANISER COMMANDES :
+
+F1 - F12 : Buynds - RCTRL:Commandes - RSHIFT:Commandes Server - BACKSPACE: Scripts
+² - = : Commandes Server
+A - $ : Commandes Server
+Q - ! : Commandes Jeu
+KP_* : Commandes Server
+
+//Je doute de la possibilité de faire un alias vérificateur qui n'active RSHIFT ou autre qu'après activation préalable de RCTRL EDIT: Il faut faire un alias +- qui gère les alias voulus:Ex: alias +test "alias switcher1 "switchon""; alias -test "alias switcher1 "switchoff""; bind alt test; bind A switcher1. Et voilà :)
+//Si cela fonctionne alors il me faut faire ceci : Orthographe vraie avec RCTRL pour commandes RCTRL, puis faussées avec autre Switch EDIT: Pas nécéssaire de faire des "faux" avec le système que j'ai trouvé
+// Et, pour autres commands, fausses avec RCTRL puis vraies
+//Il faut prendre garde à ce que ces commands soient automatiquement remises fausses avec un autre switch que le leur
+//Ex :
+//F1 : buy awp(None);Sv_cheats(RCTRL);Serverperso1(RSHIFT);Scripts(BACKSPACE);Autre(ENTER)
+//Si RCTRL, alors toutes sauf none et RCTRL doivent être fausses; Si RSHIFT alors none et RSHIFT sont correctes, autres non, etc
