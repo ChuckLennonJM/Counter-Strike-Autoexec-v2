@@ -1,0 +1,469 @@
+
+
+//TEST
+bind "0" "slot10; voicerecordtofile"
+bind "1" "slot1; toggle cldisablehtmlmotd 0 1"
+bind "2" "slot2; toggle cldownloadfilter nosounds all none"
+bind "3" "slot3; toggle svautojump 0 1"
+bind "4" "slot4; impulse"
+bind "5" "slot5; list"
+bind "6" "slot6; kill"
+bind "7" "slot7; save"
+bind "8" "slot8; load"
+bind "9" "slot9; lservercfgfile"
+bind "[" "slot11; killserver"
+bind "a" "lastinv; toggle cl_crosshairalpha 0 150 270"
+bind "b" "askconnect_accept; ent_create chicken"
+bind "c" "buymenu; toggle alias mppausematch "mp_pause_match" "mp_ununpause_match""
+bind "d" "+moveright; toggle game_mode 0 1"
+bind "e" "+reload; sv_aim"
+bind "f" "+voicerecord; toggle bot_zombie 0 1"
+bind "g" "radio2; toggle r_dynamic 0 1"
+bind "h" "messagemode2; toggle player_nevershow_communityservermessage 0 1"
+bind "i" "radio3; toggle bot_quota 0 1"
+bind "j" "messagemode; toggle mat_monitorgamma 1.75 2.00"
+bind "k" "toggle cl_crosshairsize 5.000000 1000000; toggle mat_wireframe 0 1"
+bind "l" "toggle cl_righthand 0 1; getpos"
+bind "m" "teammenu; setpos"
+bind "n" "show_loadout_toggle; toggle mat_leafvis 0 1 2"
+bind "o" "buyequip; toggle bot_prefix "Noobys" "QuArKs" "Bot" "
+bind "p" "toggle gameinstructor_enable 0 1; toggle voice_enable 0 1"
+bind "q" "+moveleft; toggle game_type 0 1"
+bind "r" "+use; cl_hud_playercount_showcount 0 1"
+bind "s" "+back; toggle developer 0 1"
+bind "t" "+lookatweapon; toggle snd_musicvolume 0.5 1 1.5"
+bind "u" "radio1; bot_all_weapons"
+bind "v" "callvote; toggle mp_c4_cannot_be_defused 0 1"
+bind "w" "toggle voice_enable 0 1; toggle r_drawparticles 0 1"
+bind "x" "toggle cl_radar_scale 0.4 0.7; box"
+bind "y" "drop; toggle sv_showimpacts_time 3 7 10; sv_grenade_trajectory_time 3 7 10"
+bind "z" "+forward; toggle cl_disablefreezecam 0 1"
+bind "'" "toggleconsole"
+bind "," "buy primammo; toggle snd_menumusic_volume 0.05 1 1.5"
+bind "." "buy secammo; toggle sensitivity 2.000000 4.000000"
+bind "/" "+movedown; toggle bot_allow_grenade 0 1"
+bind "-" "sizedown; fpschange"
+bind "=" "sizeup; toggle snd_headphone_pan_exponent 2.0 2.5"
+bind "]" "toggle bot_crouch 0 1; bot_place"
+bind "" "r_cleardecals; toggle bot_chatter normal minimal radio off"
+bind "SPACE" "+jump; "
+bind "TAB" "+showscores"
+bind "CAPSLOCK" "noclip; toggle r_drawtracers_firstperson 0 1"
+bind "ESCAPE" "cancelselect"
+bind "INS" "+klook"
+bind "END" "centerview"
+bind "PGUP" "+lookup"
+bind "PGDN" "+lookdown"
+bind "PAUSE" "pause; toggle bot_auto_follow 0 1"
+bind "SHIFT" "+speed; firstperson; sensitivity 2.000000"
+bind "ALT" "+strafe; +knife"
+bind "CTRL" "+duck; mp_warmup_end"
+bind "RCTRL" "+spray_menu"
+bind "LEFTARROW" "+left"
+bind "SEMICOLON" "toggle hidehud 0 1; fullcreen; mat_setvideomode 1366 868 1"
+bind "RSHIFT" "; toggle hud_scaling 0.5 0.85 1; serverconfig"
+bind "RIGHTARROW" "+right"
+bind "pgdn" "autobuy; toggle mp_friendlyfire 0 1; toggle ff_damage_reduction_grenade 0 1; toggle ff_damage_reduction_bullets 0 1; toggle ff_damage_reduction_other 0 1; toggle ff_damage_reduction_grenade_self 0 1 "
+bind "pgup" "rebuy; toggle mp_autokick 0 1"
+bind "DEL" "jpeg; toggle mp_teammates_are_enemies 0 1"
+bind "BACKSPACE" "thirdperson; sensitivity 4.000000"
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "MOUSE3" "+jumpthrow"
+bind "MWHEELUP" "invprev"
+bind "MWHEELDOWN" "invnext"
+bind "home" "buy ak47; buy m4a1; buy m4a1_silencer; toggle bot_difficulty easy normal hard expert; toggle voice_scale 0.7 1"
+bind "end" "buy awp; toggle r_drawothermodels 0 1 2"
+bind "NUMLOCK" "buy decoy; toggle mp_buytime 15 9999; say GLHF"
+bind "kp_slash" "buy flashbang; toggle mp_startmoney 800 60000; say GG"
+bind "kp_multiply" "buy smokegrenade; toggle mp_maxmoney 800 10000 16000 60000; say Nice !"
+bind "kp_minus" "buy molotov; buy incgrenade; toggle mp_buy_anywhere 0 1; say We can win !"
+bind "kp_plus" "buy hegrenade; toggle mp_respawn_on_death 0 1; say Nice noobs"
+bind "kp_enter" "buy defuser; toggle sv_regeneration_force_on 0 1; say Nice hacks"
+bind "kp_ins" "buy vest; toggle sv_voiceenable 0 1; say_team Rush B mates"
+bind "kp_del" "buy vesthelm; buy vest; toggle sv_showimpacts_penetration 0 1; say_team Rush A mates"
+bind "kp_leftarrow" "buy mp7; toggle mp_c4timer 0 40 500; say_team I go A"
+bind "kp_5" "buy vesthelm; buy vest; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy smokegrenade; toggle ammo_grenade_limit_total 1 2 3 4 5 6; say_team I go Mid"
+bind "kp_rightarrow" "buy vesthelm; buy vest; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy smokegrenade; toggle mp_respawn_on_death 0 1; say_team I go B"
+bind "kp_home" "buy mp9; buy mac10; toggle sv_gravity 0 302.4 400 725.6 800 1888; say_team Go B -> Under and A"
+bind "kp_uparrow" "buy nova; toggle cl_fastforwardspeed 0 1 500; toggle cl_backwardspeed 0 1 500; toggle cl_sidespeed 0 1 500; say_team Go Mid -> A"
+bind "kp_pgup" "buy p90; ent_fire env_cascade_light kill; say_team Go Mid -> B"
+bind "kp_end" "buy deagle; toggle mat_postprocess_enable 0 1; say_team Go A team"
+bind "kp_downarrow" "buy famas; buy galilar; toggle sv_clienttrace 0 1 999999999; say_team Go B team"
+bind "kp_pgdn" "buy ssg08; toggle host_timescale 0.2 0.5 1 2 3; say_team Go Mid team"
+bind "F1" "buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy smokegrenade; buy molotov; buy incgrenade; buy flashbang; toggle sv_cheats 0 1; displaydamage"
+bind "F2" "buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy flashbang; toggle sv_infinite_ammo 0 1 2; showcrosshair"
+bind "F3" "buy nova; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy smokegrenade; buy molotov; buy incgrenade; buy flashbang; toggle sv_showimpacts 0 1; toggle sv_grenade_trajectory 0 1; showviewmodel"
+bind "F4" "buy nova; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy flashbang; toggle mp_freezetime 0 5 15; clear"
+bind "F5" "buy galilar; buy famas; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy smokegrenade; buy molotov; buy incgrenade; buy flashbang; toggle mp_roundtime_defuse 2 120; "
+bind "F6" "buy galilar; buy famas; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy flashbang; toggle mp_autoteambalance 0 1"
+bind "F7" "buy ssg08; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy smokegrenade; buy molotov; buy incgrenade; buy flashbang; toggle mp_limitteams 0 1"
+bind "F8" "buy ssg08; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy flashbang; bot_kick"
+bind "F9" "buy ak47; buy m4a1; buy m4a1_silencer; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy smokegrenade; buy molotov; buy incgrenade; buy flashbang; bot_add_t"
+bind "F10" "buy ak47; buy m4a1; buy m4a1_silencer; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy flashbang; bot_add_ct"
+bind "F11" "buy awp; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy smokegrenade; buy molotov; buy incgrenade; buy flashbang; toggle mp_ignore_round_win_conditions 0 1"
+bind "F12" "buy awp; buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy flashbang; god"
+bind "leftarrow" "buy smokegrenade; buy hegrenade; buy flashbang; buy flashbang; bot_pistols_only"
+bind "rightarrow" "buy smokegrenade; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; bot_knives_only"
+bind "uparrow" "buy smokegrenade; buy hegrenade; buy decoy; buy molotov; buy incgrenade; toggle cl_showpos 0 1"
+bind "downarrow" "buy hegrenade; buy decoy; buy flashbang; buy flashbang; toggle net_graph 0 1"
+
+alias "+jumpthrow" "+jump;-attack"
+alias "-jumpthrow" "-jump"
+alias "a1" clear
+alias "a2" echo "*********************************************";
+alias "a3" echo "YOUR CURRENT CROSSHAIR SETTINGS;"
+alias "a4" echo "*********************************************";
+alias "a5" developer 2
+alias "a6" con_filter_enable 1
+alias "a7" con_filter_text cl_crosshair
+alias "a8" host_writeconfig //
+alias "a9" con_filter_text cl_fix
+alias "a10" host_writeconfig //
+alias "a11" developer 0
+alias "a12" con_filter_enable 0
+alias "a13" showconsole
+alias "showcrosshair" "a1;a2;a3;a4;a5;a6;a7;a8;a9;a10;a11;a12;a13"
+alias "b1" clear
+alias "b2" echo "*********************************************";
+alias "b3" echo "YOUR CURRENT VIEWMODEL SETTINGS;
+alias "b4" echo "*********************************************";
+alias "b5" developer 2
+alias "b6" con_filter_enable 1
+alias "b7" con_filter_text viewmodel
+alias "b8" host_writeconfig //
+alias "b9" con_filter_text view_punch
+alias "b10" host_writeconfig //
+alias "b11" developer 0
+alias "b12" con_filter_enable 0
+alias "b13" showconsole
+alias "showviewmodel" "b1;b2;b3;b4;b5;b6;b7;b8;b9;b10;b11;b12;b13"
+alias fpschange "fpschange_high"
+alias fpschange_high "fps_max 999; playvol buttons\blip1 0.5; alias fpschange "fpschange_low"
+alias fpschange_low "fps_max 60; playvol buttons\blip2 0.5; alias fpschange "fpschange_high"
+alias +knife "slot3"
+alias -knife "lastinv"
+
+alias "buyoptions1" "buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy smokegrenade; buy molotov; buy incgrenade; buy flashbang"
+alias "buyoptions2" "buy deagle; buy vest; buy vesthelm; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy flashbang"
+
+alias "serverperso1on" "sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; mp_roundtime 60; mp_roundtime_defuse 60; mp_maxmoney 60000; mp_startmoney 60000; mp_freezetime 5; mp_buytime 9999; mp_buy_anywhere 1; sv_infinite_ammo 1; ammo_grenade_limit_total 6; bot_kick; mp_warmup_end; sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 10; mp_restartgame 1"
+alias "serverperso1off" "alias serverperso1off "serverperso1off""
+alias "serverperso1" "serverperso1off"
+alias "serverperso2on" "sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; mp_roundtime 2; mp_roundtime_defuse 2; mp_maxmoney 16000; mp_startmoney 800; mp_freezetime 15; mp_buytime 20; mp_buy_anywhere 0; sv_infinite_ammo 2; ammo_grenade_limit_total 6; bot_kick; mp_warmup_end; sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 10; mp_restartgame 1"
+alias "serverperso2off" "alias serverperso2off "serverperso2off""
+alias "serverperso2" "serverperso2off"
+alias "serverperso3on" "sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; mp_roundtime 60; mp_roundtime_defuse 60; mp_maxmoney 16000; mp_startmoney 800; mp_freezetime 15; mp_buytime 20; mp_buy_anywhere 0; sv_infinite_ammo 0; ammo_grenade_limit_total 5; bot_kick; mp_warmup_end; sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 10; mp_restartgame 1"
+alias "serverperso3off" "alias serverperso3off "serverperso3off""
+alias "serverperso3" "serverperso3off"
+alias "serverperso4on" "sv_cheats 1; mp_limitteams 1; mp_autoteambalance 1; mp_roundtime 2; mp_roundtime_defuse 2; mp_maxmoney 16000; mp_startmoney 800; mp_freezetime 15; mp_buytime 20; mp_buy_anywhere 0; sv_infinite_ammo 0; ammo_grenade_limit_total 5; bot_kick; mp_warmup_end; sv_grenade_trajectory 0; sv_grenade_trajectory_time 00; sv_showimpacts 0; sv_showimpacts_time 00; mp_restartgame 1"
+alias "serverperso4off" "alias serverperso4off "serverperso4off""
+alias "serverperso4" "serverperso4off"
+alias "serverperso5on" "sv_cheats 0; mp_limitteams 0; mp_autoteambalance 0; mp_roundtime 60; mp_roundtime_defuse 60; mp_maxmoney 60000; mp_startmoney 60000; mp_freezetime 5; mp_buytime 9999; mp_buy_anywhere 1; sv_infinite_ammo 1; ammo_grenade_limit_total 6; bot_kick; mp_warmup_end; sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 10; mp_restartgame 1"
+alias "serverperso5off" "alias serverperso5off "serverperso5off""
+alias "serverperso5" "serverperso5off"
+alias "serverperso6on" "sv_cheats 0; mp_limitteams 0; mp_autoteambalance 0; mp_roundtime 2; mp_roundtime_defuse 2; mp_maxmoney 16000; mp_startmoney 800; mp_freezetime 15; mp_buytime 20; mp_buy_anywhere 0; sv_infinite_ammo 2; ammo_grenade_limit_total 6; bot_kick; mp_warmup_end; sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 10; mp_restartgame 1"
+alias "serverperso6off" "alias serverperso6off "serverperso6off""
+alias "serverperso6" "serverperso6off"
+alias "serverperso7on" "sv_cheats 0; mp_limitteams 0; mp_autoteambalance 0; mp_roundtime 60; mp_roundtime_defuse 60; mp_maxmoney 16000; mp_startmoney 800; mp_freezetime 15; mp_buytime 20; mp_buy_anywhere 0; sv_infinite_ammo 0; ammo_grenade_limit_total 5; bot_kick; mp_warmup_end; sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 10; mp_restartgame 1"
+alias "serverperso7off" "alias serverperso7off "serverperso7off""
+alias "serverperso7" "serverperso7off"
+alias "serverperso8on" "sv_cheats 0; mp_limitteams 1; mp_autoteambalance 1; mp_roundtime 2; mp_roundtime_defuse 2; mp_maxmoney 16000; mp_startmoney 800; mp_freezetime 15; mp_buytime 20; mp_buy_anywhere 0; sv_infinite_ammo 0; ammo_grenade_limit_total 5; bot_kick; mp_warmup_end; sv_grenade_trajectory 0; sv_grenade_trajectory_time 00; sv_showimpacts 0; sv_showimpacts_time 00; mp_restartgame 1"
+alias "serverperso8off" "alias serverperso8off "serverperso8off""
+alias "serverperso8" "serverperso8off"
+alias "serverrankedon" "game_type 0; game_mode 1"
+alias serverrankedoff "serverrankedoff"
+alias serverranked "serverrankedoff"
+alias "servercasualon" "game_type 0; game_mode 0"
+alias servercasualoff "servercasualoff"
+alias servercasual "servercasualoff"
+alias "serverarmraceon" "game_type 1; game_mode 0"
+alias serverarmraceoff "serverarmraceoff"
+alias serverarmrace "serverarmraceoff"
+alias "serverdemolitionon" "game_type 1; game_mode 1"
+alias serverdemolitionoff "serverdemolitionoff"
+alias serverdemolition "serverdemolitionoff"
+alias "serverdeathmatchon" "game_type 1; game_mode 2"
+alias serverdeathmatchoff "serverdeathmatchoff"
+alias serverdeathmatch "serverdeathmatchoff"
+alias "serverguardianon" "game_type 4; game_mode 0"
+alias serverguardianoff "serverguardianoff"
+alias serverguardian "serverguardianoff"
+
+///////////////////////SERVER COMMANDS//////////////////////////////
+
+alias svautojumpglobal "svautojumpfalse"
+alias svautojumpfalse "svautojumpfalse"
+alias svautojumptrue "sv_autojump"
+
+alias impulseglobal "impulsefalse"
+alias impulsefalse "impulsefalse"
+alias impulsetrue "impulse"
+
+alias list_global "list_off"
+alias list_on "list"
+alias list_off "listoff"
+
+alias kill_global "kill_off"
+alias kill_on "kill"
+alias kill_off "killoff"
+
+alias save_global "save_off"
+alias save_on "save"
+alias save_off "ppĺsaveoff"
+
+alias load_global "load_off"
+alias load_on "load"
+alias load_off "loadoff"
+
+alias lservercfgfile_global "lservercfgfile_off"
+alias lservercfgfile_on "lservercfgfile"
+alias lservercfgfile_off "lservercfgfileoff"
+
+alias killserver_global "killserver_off"
+alias killserver_on "killserver"
+alias killserver_off "killserveroff"
+alias entcreatechicken_global "entcreatechicken_off"
+alias entcreatechicken_on "ent_create chicken"
+alias entcreatechicken_off "entcreatechickenoff"
+
+alias mppausematch "mppausematch_global"; alias mppausematch "mpunpausematch_global"
+alias mppausematch_global "mppausematch_off"; alias mpunpausematch_global "mpunpausematch_off"
+alias mppausematch_on "mp_pause_match"; alias mpunpausematch_on "mp_unpause_match"
+alias mppausematch_off "mppausematchoff"; alias mpunpausematch_off "mpunpausematchoff"
+
+alias botzombie_global "botzombie_off"
+alias botzombie_on "bot_zombie"
+alias botzombie_off "botzombieoff"
+
+alias botquota_global "botquota_off"
+alias botquota_on "bot_quota"
+alias botquota_off "botquotaoff"
+
+alias setpos_global "setpos_off"
+alias setpos_on "setpos"
+alias setpos_off "setposoff"
+
+alias botprefix_global "botprefix_off"
+alias botprefix_on "bot_prefix"
+alias botprefix_off "botprefixoff"
+
+bind "NVM" "toggle mppausematch mppausematch_global mpunpausematch_global"
+
+alias servercommandson "alias svautojumpglobal "svautojumptrue"; alias impulseglobal "impulsetrue"; "
+alias servercommandsoff "alias svautojumpglobal "svautojumpfalse"; alias impulseglobal "impulsefalse"; "
+
+alias +servermasterswitch "alias "serverperso1" "serverperso1on"; alias "serverperso2" "serverperso2on"; alias "serverperso3" "serverperso3on"; alias "serverperso4" "serverperso4on"; alias "serverperso5" "serverperso5on"; alias "serverperso6" "serverperso6on"; alias "serverperso7" "serverperso7on"; alias "serverperso8" "serverperso8on"; alias serverranked "serverrankedon"; alias servercasual "servercasualon"; alias serverarmrace "serverarmraceon"; alias serverdemolition "serverdemolitionon"; alias serverdeathmatch "serverdeathmatchon"; alias serverguardian "serverguardianon""
+alias -servermasterswitchoff "alias "serverperso1" "serverperso1off"; alias "serverperso2" "serverperso2off"; alias "serverperso3" "serverperso3off"; alias "serverperso4" "serverperso4off"; alias "serverperso5" "serverperso5off"; alias "serverperso6" "serverperso6off"; alias "serverperso7" "serverperso7off"; alias "serverperso8" "serverperso8off"; alias serverranked "serverrankedoff"; alias servercasual "servercasualoff"; alias serverarmrace "serverarmraceoff"; alias serverdemolitioff "serverdemolitionoff"; alias serverdeathmatch "serverdeathmatchoff"; alias serverguardian "serverguardianoff""
+
+////////////////////////NORMAL COMMANDS//////////////////////////////
+
+alias voicerecordtofileglobal "voicerecordtofilefalse"
+alias voicerecordtofilefalse "voice_recordtofilefalse"
+alias voicerecordtofiletrue "voice_recordtofile"
+
+alias cldisablehtmlmotdglobal "cldisablehtmlmotdfalse"
+alias cldisablehtmlmotdfalse "cldisablehtmlmotdfalse"
+alias cldisablehtmlmotdtrue "cl_disablehtmlmotd"
+
+alias cldownloadfilterglobal "cldownloadfilterfalse"
+alias cldownloadfilterfalse "cldownloadfilterfalse"
+alias cldownloadfiltertrue "cl_downloadfilter"
+
+alias matwireframe_global "matwireframe_off"
+alias matwireframe_on "mat_wireframe"
+alias matwireframe_off "matwireframeoff"
+
+alias playernevershowcommunityservermessage_global "playernevershowcommunityservermessageglobal_off"
+alias playernevershowcommunityservermessageglobal_on "player_nevershow_communityservermessage"
+alias playernevershowcommunityservermessageglobal_off "playernevershowcommunityservermessageglobaloff"
+
+alias matmonitorgamma_global "matmonitorgamma_off"
+alias matmonitorgamma_on "mat_monitorgamma"
+alias matmonitorgamme_off "matmonitorgammaoff"
+
+alias developer_global "developer_off"
+alias developer_on "developer"
+alias developer_off "developeroff"
+
+alias cldisablefreezecam_global "cldisablefreezecam_off"
+alias cldisablefreezecam_on "cl_disablefreezecam"
+alias cldisablefreezecam_off "cldisablefreezecamoff"
+
+alias sndmenumusicvolume_global "sndmenumusicvolume_off"
+alias sndmenumusicvolume_on "snd_menumusic_volume"
+alias sndmenumusicvolume_off "sndmenumusicvolumeoff"
+
+alias hudscaling_global "hudscaling_off"
+alias hudscaling_on "hud_scaling"
+alias hudscaling_off "hudscalingoff"
+
+alias askconnectaccept_global "askconnectaccept_off"
+alias askconnectaccept_on "askconnect_accept"
+alias askconnectaccept_off "askconnectacceptoff"
+
+alias firstperson_global "firstperson_off"
+alias firstperson_on "firstperson"
+alias firstperson_off "firstpersonoff"
+
+alias sensitivity_global "sensitivity_off"
+alias sensitivity_on "sensitivity"
+alias sensitivity_off "sensitivityoff"
+
+alias rdynamic_global "rdynamic_off"
+alias rdynamic_on "r_dynamic"
+alias rdynamic_off "rdynamicoff"
+
+alias getpos_global "getpos_off"
+alias getpos_on "getpos"
+alias getpos_off "getposoff"
+
+alias matleafvis_global "matleafvis_off"
+alias matleafvis_on "mat_leafvis"
+alias matleafvis_off "matleafvisoff"
+
+alias box_global "box_off"
+alias box_on "box"
+alias box_off "boxoff"
+
+alias voiceenable "voiceenable_off"
+alias voiceenable_on "voice_enable"
+alias voiceenable_off "voiceenableoff"
+
+alias sndmusicvolume_global "sndmusicvolume_off"
+alias sndmusicvolume_on "snd_musicvolume"
+alias sndmusicvolume_off "sndmusicvolumeoff"
+
+////
+
+alias "sayteam"
+
+alias +allfunctionson "alias voicerecordtofileglobal "voicerecordtofiletrue"; alias cldisablehtmlmotdglobal "cldisablehtmlmotdtrue"; alias cldownloadfilterglobal "cldownloadfiltertrue"; ; ;"
+alias -allfunctionsoff "alias voicerecordtofileglobal "voicerecordtofilefalse"; alias cldisablehtmlmotdglobal "cldisablehtmlmotdfalse"; alias cldownloadfilterglobal "cldownloadfilterfalse"; ; ;"
+
+////////////////////////////////TEST SOME////////////////////////////////////////////////
+//echo Thanks for using Racer's FFA script!
+//echo Note: You have to be server operator or just play against bots.
+//echo Now choose your FFA type while in server:
+//echo FFADM: Free for all with respawning.
+//echo FFANONDM: Free for all without respawn (If you have selected deathmatch type of gamemode, this will disable respawning!)
+//echo SimpleFFA: Just turns on free for all and some other utilities. Does not affect on respawning.
+//echo Objectives: This will enable objectives (hosties and c4 planting)(You have to choose FFA mode before turning on this!)
+//echo Teams: Turn off Free for all gamemode.
+//alias "FFADM" "mp_randomspawn 1; mp_teammates_are_enemies 1; mp_respawn_on_death_ct 1; mp_respawn_on_death_t 1; mp_limitteams 1; mp_teamname_1 FreeForAll1; mp_teamname_2 FreeForAll2; mp_hostages_max 0; mp_give_player_c4 0; mp_solid_teammates 1; echo FFADM is on."
+//alias "FFANONDM" "mp_randomspawn 1; mp_teammates_are_enemies 1; mp_respawn_on_death_ct 0; mp_respawn_on_death_t 0; mp_limitteams 1; mp_teamname_1 FreeForAll1; mp_teamname_2 FreeForAll2; mp_hostages_max 0; mp_give_player_c4 0; mp_solid_teammates 1; echo FFANONDM is on."
+//alias "SimpleFFA" "mp_randomspawn 1; mp_teammates_are_enemies 1; mp_limitteams 1; mp_teamname_1 FreeForAll1; mp_teamname_2 FreeForAll2; mp_hostages_max 0; mp_give_player_c4 0; mp_solid_teammates 1; echo SimpleFFA is on."
+//alias "Objectives" "mp_hostages_max 2; mp_give_player_c4 1; echo Objectives turned on."
+//alias "Teams" "mp_randomspawn 0; mp_teammates_are_enemies 0; mp_teamname_1 "" ; mp_teamname_2 "" ; mp_give_player_c4 1; mp_hostages_max 2; echo Returned to team gameplay. May be buggy, just restart the server. Sorry about teamnames I dont know why they wont work :("
+////////////////////////////////////////////////////////////////////////////////
+
+bind "0" "slot10; voicerecordtofileglobal"
+bind "1" "slot1; cldisablehtmlmotdglobal"
+bind "2" "slot2; cldownloadfilterglobal"
+bind "3" "slot3"
+bind "4" "slot4"
+bind "5" "slot5"
+bind "6" "slot6"
+bind "7" "slot7"
+bind "8" "slot8"
+bind "9" "slot9"
+bind "[" "slot11"
+
+bind "a" "lastinv"
+bind "b" ""
+bind "c" "buymenu"
+bind "d" "+right"
+bind "e" "+reload"
+bind "f" "+voicerecord"
+bind "g" "radio2"
+bind "h" "messagemode2"
+bind "i" "radio3"
+bind "j" "messagemode"
+bind "k"
+bind "l"
+bind "m" "teammenu"
+bind "n"
+bind "o"
+bind "p"
+bind "q" "+moveleft"
+bind "r" "+use"
+bind "s" "+back"
+bind "t" "+lookatweapon"
+bind "u" "radio1"
+bind "v" "callvote"
+bind "w"
+bind "x"
+bind "y" "drop"
+bind "z" "+forward"
+
+bind "'" "toggleconsole"
+bind ","
+bind "."
+bind "/"
+bind "-"
+bind "="
+bind "]"
+bind ""
+bind "SEMICOLON"
+
+bind "ESCAPE" "cancelselect"
+bind "TAB" "+showscores"
+bind "CAPSLOCK"
+bind "SHIFT" "+speed"
+bind "CTRL" "+duck"
+bind "ALT" "+strafe"
+bind "SPACE" "+jump"
+bind "PAUSE" "+pause"
+
+bind "RSHIFT"
+bind "RCTRL"
+bind "BACKSPACE"
+
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "MOUSE3" "+jumpthrow"
+bind "MWHEELUP" "invprev"
+bind "MWHEELDOWN" "invnext"
+
+bind "HOME" "buy ak47; buy m4a1; buy m4a1_silencer"
+bind "PGUP" "autobuy"
+bind "PGDN" "rebuy"
+bind "END" "buy awp"
+bind "DEL" "take jpeg"
+bind "INS"
+
+bind "LEFTARROW" "buy smokegrenade; buy hegrenade; buy flashbang; buy flashbang"
+bind "RIGHTARROW" "buy smokegrenade; buy hegrenade; buy flashbang; buy molotov; buy incgrenade"
+bind "UPARROW" "buy smokegrenade; buy hegrenade; buy decoy; buy molotov; buy incgrenade"
+bind "DOWNARROW" "buy hegrenade; buy decoy; buy flashbang; buy flashbang"
+
+bind "NUMLOCK" "buy decoy"
+bind "kp_slash" "buy flashbang"
+bind "kp_multiply" "buy smokegrenade"
+bind "kp_minus" "buy molotov; buy incgrenade"
+bind "kp_plus" "buy hegrenade"
+bind "kp_enter" "buy defuser"
+bind "kp_del" "buy vesthelm; buy vest"
+bind "kp_ins" "buy vest"
+bind "kp_end" "buy deagle"
+bind "kp_downarrow" "buy famas; buy galilar"
+bind "kp_pgdn" "buy ssg08"
+bind "kp_leftarrow" "buy mp7"
+bind "kp_5" "buy vesthelm; buy vest; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy smokegrenade"
+bind "kp_rightarrow" "buy vesthelm; buy vest; buy defuser; buy hegrenade; buy flashbang; buy molotov; buy incgrenade; buy smokegrenade"
+bind "kp_home" "buy mp9; buy mac10"
+bind "kp_uparrow" "buy nova"
+bind "kp_pgup" "buy p90"
+
+bind "F1" "buyoptions1"
+bind "F2" "buyoptions2"
+bind "F3" "buyoptions1; buy nova"
+bind "F4" "buyoptions2; buy nova"
+bind "F5" "buyoptions1; buy galilar; buy famas"
+bind "F6" "buyoptions2; buy galilar; buy famas"
+bind "F7" "buyoptions1; buy ssg08"
+bind "F8" "buyoptions2; buy ssg08"
+bind "F9" "buyoptions1; buy ak47; buy m4a1; buy m4a1_silencer"
+bind "F10" "buyoptions2; buy ak47; buy m4a1; buy m4a1_silencer"
+bind "F11" "buyoptions1; buy awp"
+bind "F12" "buyoptions2; buy awp"
