@@ -1,0 +1,717 @@
+
+    -autoconfig - Restores video and performance settings to default for the current hardware detected. Ignores settings inside any .cfg files until this parameter is removed.
+    -32bit - Forces the engine to start in 32-bit mode. Only useful on 64-bit Operating Systems.
+    -adapter -
+    -allowdebug -
+    -allowstalezip -
+    -basedir -
+    -bi -
+    -bugbait - To do: Is it for Bugbait E3 2003 demo?
+    -bugreporterdll -
+    -buildcubemaps -
+    -condebug - Logs all console output into the console.log text file.
+    -console - Starts the game with the developer console enabled.
+    -defaultgamedir -
+    -demo -
+    -dev - Enables developer mode. Also disables the automatic loading of menu background maps and stops the quit dialog from appearing on exit.
+    -dti -
+    -dumpvidmemstats -
+    -dxlevel <level> - Forces a specific DirectX version when launching the engine. This is useful if your graphics card is DirectX 9 capable, but a lot faster using only DirectX 8 (e.g. NVidia GeForce FX 5200). Multiply the desired DirectX version to use with ten. E.g. for DirectX 8.0 you would use -dxlevel 80. For DX9 there are three possible values depending on the Shader Model the graphics card supports. See mat_dxlevel.
+    -edit -
+    -endgamevid -
+    -exit - Exits the engine. [confirm]
+    -filmgrain -
+    -flushlog - Causes log files to be flushed to disk once per second (rather than after every 4kbytes of log data).
+    -forcestartupmenu -
+    -forever -
+    -full_memory_dumps -
+    -fullscreen or -full - Forces the engine to start in fullscreen mode.
+    -g15 - Enables Logitech G15 support. G15 is only supported in SiN Episodes: Emergence. [confirm]
+    -game - Sets game or mod directory to load the game from. Default is "hl2".
+    -gamestatslogging -
+    -gamestatsloggingtofile -
+    -h <height> or -height <height>- Forces the engine to start with resolution set to <height>. Ex: -h 768
+    -heapcheck -
+    -heapsize <kilobytes> - Specifies the heapsize (in kilobyte) the game will use. This no longer exists on the Source 2009.
+    -hideconsole -
+    -high - Sets the game's priority to High
+    -hijack - Take control of an existing instance of the game, if any, instead of complaining about already running.
+    -hushasserts -
+    -hushsteam -
+    -insecure - Disable VAC.
+    -internalbuild - Unknown, used in Portal 2 IHV build.
+    -ip -
+    -language %l - Sets the game language to the one specified. (Examples: "english", "german").
+    -leakcheck -
+    -low - Sets the game's priority to Low.
+    -makedevshots - Stops Entities from Fading [confirm]
+    -makereslists -
+    -mat_aaquality -
+    -mat_antialias -
+    -mat_vsync -
+    -maxdownloadfilesizemb - CS:GO 5/1/2014, client launch option -maxdownloadfilesizemb N if clients needs to download even larger files from community servers.
+    -maxplayers -
+    -minmemory -
+    -navanalyze -
+    -navforceanalyze -
+    -netspike -
+    -noassert -
+    -noborder - When used with the game set to windowed mode, will make the game act as if in fullscreen mode (no window border).
+    -nobreakpad -
+    -noclearsave -
+    -nocrashdialog - Suppresses some 'memory could not be read' unhandled errors.
+    -nodev -
+    -nodns -
+    -noforcemaccel - Use the Windows mouse acceleration settings. Only works if -useforcedmparms is set.
+    -noforcemspd - Use the Windows mouse speed settings. Only works if -useforcedmparms is set.
+    -nogamedll - Game will crash when you are loading maps
+    -nogamestats -
+    -nohltv -
+    -noip -
+    -NoLoadPluginsForClient -
+    -nomaster - Disable client authentication
+    -nomessagebox -
+    -nominidumps -
+    -nomouse -
+    -nop4 - Forces the Engine to bypass Perforce Integration
+    -nopreload -
+    -nopreloadmodels -
+    -NoQueuedPacketThread -
+    -norebuildaudio -
+    -noshaderapi -
+    -nosound -
+    -NoVConfig -
+    -novid - When loading a game with this parameter, the intro Valve video will not play.
+    -override_vpk - Forces actual files to override VPK.
+    -particles -
+    -phonehome - Unknown, used in Portal 2 IHV build.
+    -pidfile -
+    -pme -
+    -port <variable> - Sets port for a listen server. Default is 27015.
+    -preload -
+    -primarysound -
+    -publicbuild -
+    -random_invariant -
+    -replay - increase maxplayers by 1 at startup and automatically execute replay.cfg for the server.
+    -rebuildaudio -
+    -recapvid -
+    -ref -
+    -refresh <rate> or -refreshrate <rate> or -freq <rate>- Force a specific refresh rate. Ex: -refresh 60
+    -requirecubemaps -
+    -resizing -
+    -reslistdir -
+    -reuse -
+    -rpt -
+    -safe -
+    -soft - Enables Software hardware rendering mode.
+    -shaderapi -
+    -sillygibs -
+    -small -
+    -sndcachedebug -
+    -spewsentences -
+    -startmap -
+    -startstage -
+    -steam - Enables Steam support (if the game is launched from Steam, this is enabled by default). Working directory must be Steam directory. Works only for singleplayer games.
+    -steamlocal - Same as -steam.
+    -steamport -
+    -strictportbind - If you launch the game with this option it will quit with an error message if it can't bind to the default or specified port.
+    -sv_benchmark -
+    -swapcores -
+    -tempcontent -
+    -testscript <filename> - Loads a .vtest file.
+    -testsub -
+    -textmessagedebug -
+    -textmode - Runs the game without graphics
+    -threads -
+    -timedemoloop -
+    -toconsole - Starts the engine directly in the console, unless a map is specified with +map.
+    -tools - Enables engine tools.
+    -trackdeletions -
+    -tvmasteronly -
+    -usedevshotsfile -
+    -useforcedmparms - Allows the use of -noforcemspd and -noforcemaccel.
+    -uselogdir -
+    -usercon -
+    -usereslistfile -
+    -usetcp -
+    -vcrrecord -
+    -vguimessages -
+    -vproject -
+    -w <width> or -width <width> - Forces the engine to start with resolution set to <width>. Ex: -w 1024
+    -wavonly - Disables DirectSound and makes the engine attempt to play all sounds in PCM format.
+    -window or -sw or -startwindowed or -windowed - Forces the engine to start in windowed mode.
+    -x <x position> - In borderless windowed mode, determines where the window should be horizontally. Ex: -x 0
+    -y <y position> - In borderless windowed mode, determines where the window should be vertically. Ex: -y 0
+    +connect - Console Command
+    +load - Console Command
+    +mat_hdr_level - Console Command
+    +maxplayers - Console Command
+    +playdemo - Console Command
+    +port - Console Command
+    +timedemo - Console Command
+    +timedemoquit - Console Command
+
+Console variables
+
+    +<console variable> <arg> - Sets the Cvar (or console variable) to the specified setting.
+
+Some useful console variables
+
+    +map <map name> - Loads the map specified after the engine starts.
+    the .BSP extension is not needed.
+    +map_background <map name> - Forces a specified background map to be used. Useful for testing custom background maps. To avoid loading standard background maps for speed reasons, use the -dev command-line parameter.
+    +sv_lan <0/1> - When set to 1, launches the game in LAN mode. Useful to stop players from joining your game from the Internet.
+    +sv_cheats <0/1> -- When set to 1, starts the game with cheats enabled.
+    +physcannon_mega_enabled 1 - Makes Gravity gun a super gravity gun
+
+    +cl_showfps <0/1/2/3> -- When set to 2, shows the framerate and map name.
+
+Goldsource Games
+
+These command-line parameters will work with any Goldsource engine games (Half-Life, Counter-Strike, etc.).
+Command parameters are described inside the < and > characters.
+
+Syntax: hl.exe <parameter1> <parameter2> <cvar1> <cvar2>
+Usage
+
+These options can be used with:
+
+    Hammer editor Run Map dialog.
+    Windows shortcuts pointing to hl.exe directly.
+    Windows shortcuts pointing to steam.exe with the proper -applaunch <AppID> specified (see Steam section below).
+    Command-line batch script files launching these applications.
+    Game launch options from Steam's Library.
+
+Examples
+
+    steam.exe -applaunch 70 -dev -console -sw +sv_lan 1 +map MyMap
+    hl.exe -game cstrike -dev -console -fullscreen +sv_lan 1 +map de_dust
+
+Command-line parameters
+
+    -game <game> - Specifies which game/mod to run. Default is "valve".
+    -dll <name.dll> - Specifies which game DLL to use. Ex: -dll dlls/zbotcz.dll.
+    -condebug - Stores console output to "Half-Life\qconsole.log".
+    Can be toggled with condebug console command.
+    -dev - Enables developer mode.
+    -glext - When paired with "-dev" setting, outputs all OpenGL extensions supported by your graphics card.
+    Can do the same with gl_dump console command.
+    -gl - Sets the rendered to OpenGL.
+    -soft - Sets the rendered to Software.
+    -full - Forces the engine to start in fullscreen mode.
+    -window or -sw or -startwindowed or -windowed - Forces the engine to start in windowed mode.
+    -w <width> or -width <width> - Forces the engine to start with resolution set to <width>. Ex: -w 1024.
+    -h <height> or -height <height>- Forces the engine to start with resolution set to <height>. Ex: -h 768.
+    -stretchaspect - The game by default adds black bars based on your game screen resolution. Use -stretchaspect on your command line if you want the old behavior back (just always fill the screen). Setting "-nofbo" also implies "-stretchaspect".
+    -freq <variable> - Force a specific refresh rate when running in fullscreen AND your monitor supports the frequency in question.
+    If you don't have a CRT monitor chances are you can't use this option.
+    -mousethread - If set we poll the mouse position in another thread running at 100hz by default, to get better movement accuracy. Set the "m_mousethread_sleep" cvar to the number of seconds to sleep between mouse polls to change this rate.
+    -joy_advanced - Use advanced joystick options (allows for multiple axes).
+    -joy_advr, -joy_advu, -joy_advv, -joy_advx, -joy_advy, -joy_advz - To do
+    -nosound - Disables sound support.
+    Can do the same with nosound <0 or 1> console command.
+    -nocdaudio - Disables mp3 support. Also disallows cd console command to load mp3 tracks.
+    -wavonly - Disables DirectSound and makes the engine attempt to play all sounds in PCM format.
+    -nointro - Disables intro movies.
+    -noip - Disables network support.
+    -noipx - Disables IPX support.
+    -nojoy - Disables joystick support.
+    -nomouse - Disables in-game mouse support.
+    -noforcemparms - Forces the engine to use operating system mouse parameters.
+    -noforcemaccel - Forces the engine to use operating system mouse acceleration.
+    -noforcemspd - Forces the engine to use operating system mouse speed.
+    -nofbo - Disables using the new method for rendering.
+    -nomsaa - Disables MSAA (Anti-Aliasing), setting "-nofbo" also implies "-nomsaa".
+    -noborder - When used with the game set to windowed mode, will make the game act as if in fullscreen mode (no window border).
+    Bug:
+    Doesn't hide window border, only control buttons.
+    -nodirectblit - Disables direct blitting (Blit is shorthand for "block image transfer" or bit blit).
+    -nobots - Disables bots.
+    -port <port> - Specifies which port to use for client connections for a listen server. Default is 27015.
+    Can do the same with port console command.
+    -demoedit - Enables hidden Demo editor.
+    Use viewdemo console command to get access.
+    -num_edicts <variable> - Sets the entity limit for map/game entities (not temporary entities, which is still locked to 500). 900 is default. 4096 is a good limit, beyond that seems to cause hunk_alloc errors[confirm]. Both clients and servers need matching values for best compatibility[confirm].
+    -heapsize <kilobytes> - Specifies the amount of heap(or free store - cache, an area of memory used for dynamic memory allocation) the engine will use. Minimum value is 14336(14 MB). Maximum value is 131072(128 MB). By default this is set to 40960 (40 MB) and automatically adjusted to suit your system.
+    Low value causes "Unable to allocate X.X MB" exit error.
+    -zone <bytes> - Specifies the amount of Bytes of memory for use with the console system.
+    Low or very high value causes Z_Malloc exit error.
+    -exec <file> - Executes specific config file immediately after the engine is loaded.
+    +<console variable> <arg> - Sets the Cvar (or console variable) to the specified setting.
+
+Useful console variables
+
+    +_setgamedir <game> - Specifies which game/mod to run.
+    +_setrenderer <variable> - Sets the rendering mode. Available parameters are opengl and software.
+    Parameter D3D is deprecated.
+    +_setvideomode - To do
+    +_set_vid_level <0 or 1> - Toogles "Low video quality".
+    +_setaddons_folder <0 or 1> - Toogles "Allow custom addon content".
+    +_sethdmodels <0 or 1> - Toogles "Enable HD models if available".
+    +clientport <port> - Specifies which port to use to communicate with a server. Default is 27005.
+    +gg <demoname> or +cl_gg 1 +playdemo <demoname> - Runs the demo in Game Gauge mode. This is a benchmark utility that runs through a demo as fast as possible and stores the framerate in the file fps.txt in the GameMod directory.
+    +log on or +log off - Toogles logging before the engine loads config files.
+
+Deprecated command-line parameters
+
+    -console - Enables console. Can be opened either from menu (button in top-left corner in old Half-Life builds or button in main menu in new builds), or by pressing tilde (~) in-game.
+    Always enabled by default.
+    -toconsole - Opens the console right when the game is launched.
+    No longer works.
+    -gldrv <driver name> - Selects the GL Driver. The two choices are "Default" and "3dfxgl.dll".
+    No longer works.
+    -d3d - Sets the rendered to Direct3D.
+    Removed.[1]
+    -vid_mode <variable> or -vt <variable> - Sets the rendering mode. Available parameters are gl and software.
+    No logner works. Use -gl, -soft or -d3d(see above) instead.
+    -16bpp - Forces 16-bit color mode (bit depth).
+    Not allowed.
+    -32bpp - Forces 32-bit color mode (bit depth).
+    Enabled by default.
+    -nowinmouse - Don't capture mouse in-game.
+    Renamed to -nomouse.
+    -gamegauge <demoname> - Runs the demo in Game Gauge mode. This is a benchmark utility that runs through a demo as fast as possible and stores the framerate in the file fps.txt in the GameMod directory.
+    Use console commands instead.
+    -numericping - Displays ping in server browsers in milliseconds instead of dots.
+    Enabled by default.
+    -particles <variable> - The number of particles for which to set aside buffer space.
+    No longer works.
+    -nosierra - [confirm] To do
+    -noaff - Disables setting of thread affinity.
+    No longer works.
+
+Steam (Windows)
+
+These command-line parameters work when launching the Steam application (steam.exe) under Windows.
+Command-line parameters
+
+    -applaunch %id %c - This launches an Game or Application through Steam. Replace the %id with the Game/Application ID number that you want to open up, replace %c with the command line parameters for the game as listed in the Source Games section above.
+    -cafeapplaunch - Launch apps in a cyber cafe context (Forces apps to be verified / validated before launch).
+    -clearbeta - Opts out of beta participation (in case for some reason it can't be done via settings).
+    -complete_install_via_http - Run installation completion over HTTP by default.
+    -console - Enables the Steam debug console tab.
+    -ccsyntax - Spew details about the localized strings we load.
+    -debug_steamapi - Enables logging of Steam API functions.
+    -developer - Sets the 'developer' variable to 1. Can be used to open the VGUI editor by pressing F6 or VGUI zoo by pressing F7. Intended for skin development.
+    -fs_log - Log file system accesses.
+    -fs_target - Set target syntax.
+    -fs_logbins - Log the binaries we load during operation.
+    -forceservice - Run Steam Client Service even if Steam has admin rights.
+    -gameoverlayinject - Sets the method how GameOverlay is injected.
+    -install %p - Install a product from a specified path (e.g. "D:" for the DVD-ROM drive if D: is one).
+    -installer_test - changes installing a retail game to emit all files to install_validate/ folder instead of to the steam cache.
+    -language %l - Sets the Steam language to the one specified. (Examples: "english", "german").
+    -login %u %p - This logs into Steam with the specified Username and Password combination. Replace %u with the username, and %p with the password you want to login with (Steam must be off for this to work).
+    -lognetapi - logs all P2P networking info to log/netapi_log.txt.
+    -log_voice - writes voice chat data to the logs/voice_log.txt file.
+    -noasync - Don't use async file operations, run them synchronous instead.
+    -nocache - This starts steam with no cache (Steam must be off for this to work properly).
+    -noverifyfiles - prevents client from checking files integrity, especially useful when testing localization.
+    -no-dwrite - forces vgui to use GDI text even if DWrite support is available.
+    -script %s - This runs a Steam script. Replace %s with the script filename. All scripts must be in a subdirectory of the Steam folder called test scripts (Steam must be off for this to work).
+    -shutdown - This shuts down (exits) Steam.
+    -silent - This suppresses the dialog box that opens when you start steam. It is used when you have Steam set to auto-start when your computer turns on. (Steam must be off for this to work).
+    -single_core - Force Steam to run on your primary CPU only.
+    -tcp - forces connection to Steam backend to be via TCP.
+    -voice_quality - sets audio quality, range [1,3].
+    -voicerelay - Only allow 'relay' connections for voice (testing).
+    -tenfoot - Start Steam in Big Picture Mode.
+
+HldsUpdateTool (Windows), steam (Linux)
+
+Syntax: hldsupdatetool -command <command> [parameters] [flags]
+Commands
+
+    -command update - Install or update HLDS.
+    -command version - View installed versions.
+    -command list - View available games.
+
+Parameters for the update command
+
+    -beta <betaname> - Name of the beta (optional parameter for taking part in a beta test)
+    -game <game> - The name of the game to install (see enumeration).
+    -dir <installdir> - HLDS Install directory (if dir not specified, will use value from last run of tool).
+
+The following parameters are only needed to access limited content.
+
+    -username <username> - Steam account username
+    -password <password> - Steam account password
+
+Flags for the update command
+
+    -verify_all - Verify all HLDS files are up to date.
+    -retry - Automatically retry every 30 seconds if the Steam Network is busy.
+    -remember_password - Remember password (if a username is supplied).
+
+Optional parameters for all commands
+
+    -nobootstrapupdate - Do not check for updates to the update tool
+
+SteamCMD
+
+The Steam Console Client or SteamCMD is a new tool to install and update dedicated servers using a command line interface. It only works with games that have switched over to the SteamPipe content system. Eventually all Steam games will switch from HLDSUpdateTool to this.
+Command parameters are described inside the < and > characters.
+
+Syntax: steamcmd.exe <parameter1> <parameter2> <cvar1> <cvar2>
+
+To view the most up to date version of SteamCMD commands visit this GitHub repo: https://github.com/dgibbs64/SteamCMD-Commands-List
+Usage
+
+    steamcmd.exe +COMMAND1 [ARG] +COMMAND2 [ARG]
+    steamcmd.exe +runscript SCRIPTFILE
+
+Command-line parameters
+
+To do
+Commands
+
+    app_info_print : Dumps app info for appID
+    async_disconnect : async disconnect
+    build_installer : <project file> <target folder> [beta key] [beta pwd]
+    device_authorize_status : prints device authorization status
+    get_download_throttle :
+    install_folder_list : list all mounted Steam volumes
+    manifest_dump : <filename>
+    package_info_print : Dumps package info for packageID
+    quit : Stops Steam client console
+    set_download_throttle : set_download_throttle <kbps> <bPersistent = false>
+    test_failnextconnect : Tests failing the next connection
+    api_logging : api_logging <enabled> <verbose> : enable/disable verbose API logging in steamcmd
+    app_build_all_depots : app_build_all_depots [-desc <text>] -depotconfigpath <folder> -contentroot <folder> -buildoutput <folder> <appid>  : Build all depots for one app
+    app_dlc_status : app_status <appId> <dlcId>
+    app_info_print : Dumps app info for appID
+    app_info_request : <AppID> - Issue an appinfo request for the given appid. Does not wait for results from the server.
+    app_info_update : [0|1] : trigger app info update, optionally for update all
+    app_license_request : <AppID> - Requests a free licenses for this app if not already owned.
+    app_set_config : <AppID> <key> <value> - sets a config value for given app.
+    app_set_update_flag : app_set_update_flag <appId>
+    apps_installed :
+    apps_running : displays information about running games tracked by Steam
+    app_status : app_status <appId>
+    app_stop : <appid> [force:0|1] stop this running app
+    app_uninstall : [-complete] <appId>
+    app_update : app_update <appid> [-validate] [-language <lang>] [-beta <betaname>] [-betapassword <pwd>] make sure a Steam application is up-to-date
+    app_update_cancel : <EAppUpdateError>
+    async_disconnect : async disconnect
+    build_installer : <project file> <target folder> [beta key] [beta pwd]
+    ceg_wrap : ceg_wrap <appid> <orig filename> <stripped filename> <strips filename> : upload executable to back end for CEG wrapping
+    cm_force_change : Change CM List
+    device_authorize_status : prints device authorization status
+    download_depot : download_depot <appid> <depotid> [<target manifestid>] [<delta manifestid>] [<depot flags filter>]: download a single depot
+    download_sources : Dumps list of download sources
+    drm_wrap : drm_wrap <appid> <input filename> <output filename> <toolname> <flags> : upload executable to back end for DRM wrapping
+    dump_scheduled_functions : usage: "dump_scheduled_functions" Displays internal Steam function callback timers
+    exit : Stops Steam client console
+    find : find substrings in console commands
+    force_install_dir : force_install_dir <appId>
+    get_download_throttle :
+    help : Show help information
+    info : Dump various Steam info
+    install_folder_list : list all mounted Steam volumes
+    licenses_for_app : <appid> : shows active licenses for appid
+    licenses_print : display users's Steam3 licenses
+    log_callbacks : usage: "log_callbacks <first callbackID> [last callbackID]
+    login : <username> [<password>] [<Steam guard code>] - login to Steam
+    log_ipc : usage: "log_ipc [counts|verbose] <filter>" Enables IPC logging. Specifying "counts" or "verbose" is optional, defaulting to counts.
+    logoff : Disconnect from Steam
+    logon : see 'login'
+    logout : Disconnect from Steam
+    manifest_dump : <filename>
+    mem_stats : Dump memory stats
+    net_msgdump : Dumps list of sent net messages
+    net_msgspew : Spews sent net messages
+    p2p_info : usage: "p2p_info" Displays the current state of the P2P networking subsystem.
+    package_info_print : Dumps package info for packageID
+    quit : Stops Steam client console
+    render_ipc_connections : usage: "render_ipc_connections
+    run_app_build : run_app_build [-preview] [-desc <text>] <appbuildfile> : run app depot build as specified in appbuildfile
+    run_app_build_http : run_app_build_http : alias for run_app_build
+    runscript : <scriptfile> - runs a console command script
+    set_download_throttle : set_download_throttle <kbps> <bPersistent = false>
+    set_spew : <group> <level> <loglevel> set spew levels for the given group
+    set_spew_level : <SpewLevel LogLevel> Sets spew and log level for all groups
+    set_steam_guard_code : - authorize this computer by adding the Steam Guard email code
+    sign_install_script : sign_install_script <appid> <input filename> <output filename> : upload install script to back end for signing
+    test_dropcon : Tests dropping a connection
+    test_failnextconnect : Tests failing the next connection
+    upload_controller_config : upload_controller_config <appid> <filename> : upload controller config to cloud
+    user_friends : Dumps list of friends
+    verify_chunk_store : verify_chunk_store <appid> <depotid> <datafile> : run app depot build as specified in appbuildfile
+    verify_vpk : verify_vpk <datafile> : verifies content of given VPK
+    voice_game_usage : displays information about the game's use of Steam voice
+    workshop_build_item : workshop_build_item <build config filename> : build a workshop item
+    workshop_create_legacy_item : workshop_create_legacy_item <appid> <workshop file> : build a legacy workshop item
+    workshop_download_item : workshop_download_item <appid> <PublishedFileId> : download a workshop item
+    workshop_status : workshop_status <appId>
+
+ConVars
+
+    app_info_http_min = "0"  :
+    app_info_http_num_sockets = "8"  :
+    AsyncFileIODisableWrite = "0"  :
+    AsyncFileIOExpectOutstandingIO = "16"  :
+    AsyncFileIOForceGenericIO = "1"  :
+    AsyncFileIOMaxPending = "128"  :
+    AsyncFileIOReadHandleCache = "32"  :
+    AsyncFileIOWriteHandleCache = "32"  :
+    batterypercent = "0"  :
+    batterytime = "0"  :
+    bCheckForFreeGamesOnLogin = "0"  :
+    bCheckUGCIntegrity = "1"  :
+    @bContentManifestUseProtobufs = "1"  :
+    @bCSClientRateLimitUseDelays = "0"  :
+    @bCSForceNoCache = "0"  :
+    @bDepotBuilderReadBufferSizeKB = "8192"  :
+    @bDepotBuilderUnbufferedReads = "1"  :
+    bDisableTenFootOverlay = "0"  :
+    @bEnableMovieRecording = "0"  :
+    @bEnableOfflineLogonTicket = "1"  : If true, an offline logon ticket will be requested during logon if none is cached
+    @bEnableSpewThrottle = "1"  :
+    bEnableSubscribedFileListCache = "1"  :
+    bFinishStagedDepotVersions = "1"  :
+    @bForceStreamUnsupportedApp = "0"  :
+    @bLANPeerConnectionTimeoutSec = "5"  :
+    bLogLegacyDiskDetails = "0"  :
+    @bMsgErrorDump = "0"  :
+    @bRequireOfflineLogonTicket = "0"  : If true, a valid offline logon ticket is required when logging in in offline or no connection mode
+    @bRequireSignedParentalSettings = "1"  : If true, a valid set of signed parental settings is required when logging in in offline or no connection mode
+    broadcast_upload_drop_sec = "6"  :
+    broadcast_upload_update_sec = "3"  :
+    bSteam3LimitedUserEnable = "1"  :
+    bSteamLoaderEnable = "1"  :
+    bSubscribedFilesDecompressOnClient = "1"  :
+    bSubscribedFilesPollForUpdates = "0"  :
+    bSubscribedFilesUseRangeRequests = "0"  :
+    bVerifyAllDownloads = "0"  :
+    cAppUpdateWorkingSetMB = "128"  :
+    @cbPartnerUploadChunkSize = "1000000"  : Chunk size to use for POSTing partner uploads
+    @cCSClientMaxNumSocketsPerHost = "8"  :
+    @cDepotBuilderFileChunkingThreads = "4"  :
+    cFileValidationMaxLog = "100"  :
+    ClientStatsUploadRateSeconds = "10"  :
+    @cMaxContentServersToRequest = "20"  :
+    @cMaxInitialDownloadSources = "-1"  :
+    @cNetEncryptionHandshakeWorkMax_HighPri = "8000"  :
+    @cNetEncryptionHandshakeWorkMax_LowPri = "2000"  :
+    @cNetEncryptionHandshakeWorkMax_MedPri = "4000"  :
+    countrycode = ""  :
+    cPreallocateMinimumSizeKB = "256"  :
+    @csecCSRequestProcessorTimeOut = "300"  :
+    @csecFavoriteGameAccountCacheTime = "86400"  : Control how often we refresh the account IDs in the game server favorites list
+    @csecIncomingDataRatePeriod = "1"  :
+    csecManifestDownloadTimeout = "120"  :
+    @csecUpdateTargetNumConnectionsEpoch = "10"  :
+    @cSecUploadDownloadRates = "300"  :
+    @CSInterfaceProxyPassword = ""  :
+    @CSInterfaceProxyUsername = ""  :
+    @cUDPSendRetries = "8"  :
+    @CustomBinaryRequestRetryTimes = "20"  :
+    @DepotBuilderAppInfoTimeout = "120"  :
+    @DepotBuilderConfigRoot = "./depotscripts" :
+    @DepotBuilderContentRoot = ""  :
+    @DepotBuilderMaxParallelUploadChunks = "24"  :
+    @DepotBuilderNoReslist = "0"  :
+    @DepotBuilderNumHTTPSocketsToMDS = "12"  :
+    @DepotBuilderOutputRoot = ""  :
+    @DepotBuilderParallelUploadChunks = "6"  :
+    @DepotBuilderProgressTimeout = "1000"  :
+    DepotDownloadProgressTimeout = "120"  :
+    DepotReconstructionLowPrio = "1"  :
+    DepotReconstructionNumIOThreads = "1"  :
+    DepotUseAlternatingReadWrite = "1"  :
+    developer = "0"  :
+    @EnableUDPHistory = "0"  :
+    @fDownloadRateImprovementToAddAnotherConnection = "1.2"  :
+    findbestcellstartupdelay = "600"  :
+    @fMinDataRateToAttemptTwoConnectionsMbps = "0.5"  :
+    @GCNameOverride = ""  :
+    @IOCPGetCompletionBatchSize = "1"  :
+    @LocalContentServer = ""  :
+    log_files_always_flush = "0"  :
+    log_matchmaking_callbacks = "0"  :
+    @MaxOutstandingSendThreadItem = "1000"  :
+    mic_autogain = "16000"  : automatic gain control level for microphone input
+    mic_inputfile = ""  : causes voice data to be read from the specified file instead of from the microphone
+    mic_outputfile = ""  : causes microphone data to be written out to the specified file
+    musiclogging = "0"  :
+    nBroadcastSessionHearbeatSec = "120"  :
+    nBroadcastSessionMaxDropFrames = "100"  :
+    nClientBackgroundAutoUpdateTimeSpreadMinutes = "0"  : Number of minutes to spread background auto-updates out over
+    nClientCMUDPPingTimeGoodEnoughThresholdMS = "50"  :
+    nClientCMUDPPingTimeoutUseGoodEnoughMS = "250"  :
+    nCloudDownloadMinIntervalSec = "60"  :
+    nCloudFileCompressionMinFileSizeKB = "16"  :
+    nCloudFileCompressionMinFileSizeKBSharedFile = "128"  :
+    nCloudFileCompressionPercentageMin = "10"  :
+    nCloudFileCompressionPercentageMinSharedFile = "50"  :
+    nCloudSyncIntervalSec = "30"  :
+    nCloudUploadMinIntervalSec = "1800"  :
+    nContentStatsReportInterval = "72"  : In Hours
+    @nCSClientRateLimitKbps = "0"  :
+    @nDownloadLANChunkCacheSizeMB = "128"  :
+    @nDownloadLANPeerGroup = "0"  :
+    @net_backlog_bytes_allowed = "12000000"  :
+    @net_backlog_time_allowed_sec = "5"  :
+    @NetConnectionBufferMsgLimit = "1000"  : Max # of message that will be buffered into a single zipped packet
+    @NetConnectionBufferThreaded = "1"  :
+    net_incomingcheck = "1"  :
+    @net_loopback = "1"  :
+    net_maxresendsperframe = "32"  :
+    @nLANPeerRateLimitKbps = "0"  :
+    @nNetConnectionBufferZipLevel = "1"  :
+    @NoPromptForPassword = "0"  :
+    @nParentalSettingsLogLevel = "4"  : Control the amount of spew written to the parental log file
+    nProductInfoUpdateInterval = "900"  :
+    @nSpewThrottleNagFrequencyMs = "5000"  :
+    n@SpewThrottlePeriodMs = "1000"  :
+    @nSpewThrottleResumeThreshold = "3"  :
+    @nSpewThrottleTriggerThreshold = "10"  :
+    @nSpewThrottleUnconditionalResumeMs = "5000"  :
+    @nSpewThrottleUnconditionalTriggerCount = "50"  :
+    nSubscribedAutoDownloadMaxSimultaneous = "8"  :
+    @nTCPLargeSendBufSizeMB = "16"  :
+    p2p_connecttimeout = "15"  :
+    p2p_unusedtimeout = "120"  :
+    rtime32EarliestSubscribedFileToDownload = "1348857570" :
+    @sCSDSVirtualHostHeader = ""  :
+    ServerBrowserPingSurveySubmitPct = "5"  :
+    @ShutdownOnFailedCommand = "1"  : Exit steamcmd immediately upon any failed build-related command
+    spew_controller_loss = "0"  :
+    @sSteamCmdForcePlatformBitness = ""  : Must be one of: [32 | 64]
+    @sSteamCmdForcePlatformType = ""  : Must be one of: [windows | macos | linux]
+    @strCSNoCacheHeader = "no-cache"  :
+    @StreamClientArgs = ""  :
+    testappcloudpaths = "0"  :
+    uForcePreloadApp = "0"  :
+    UGCCDNReportPct = "100"  :
+    voice_autogain = "0"  :
+    voice_minabs = "0.15"  :
+    voice_minavg = "1.0"  :
+    voice_outputdevice = "0"  : 0=>Miles 1=>XAudio2
+    voice_outputfile = ""  : causes output from voice system to be written out to the specified file
+    voice_preprocess = "1"  : enables voice cleanup on incoming microphone data
+    voice_quality = "4"  :
+    workshop_items_cache_days = "14"  :
+    workshop_items_update_interval = "900"  :
+
+Examples
+
+    <code>steamcmd.exe +login <username> <password> +force_install_dir <path> +app_update <appid> -validate
+
+Source Dedicated Server
+
+Command-line arguments for the Source Dedicated Server executable (<code>srcds.exe, srcds_run)
+Command-line parameters
+
+-allowdebug
+    (Same as -debug ?) 
+-autoupdate
+    The server is searching for updates on startup (Linux/Unix only). 
+-console
+    SrcDS will run in console mode (Windows only). 
+-debug
+    Debug Mode. 
+-dev
+    Show developer messages. 
+-game <game or path>
+    Specifies which game/mod to run. Accepts either a path to a gameinfo.txt, or one of these pre-set values. 
+-insecure
+    Will start the server without Valve Anti-Cheat. 
+-ip
+    Specifies the address to use for the bind(2) syscall, which controls on which IP addresses the program is reachable on. It must either be a local address (an addresses of the host it runs on) or 0.0.0.0 (the wildcard). This has nothing to do with externally-visible addresses in NAT setups. 
+-maxplayers <number>
+    Specifies how many player slots the server can contain. 
+-nobots
+    Disable bots. 
+-nohltv
+    Disables SourceTV and closes its port (usually 27020). 
+-norestart
+    Won't attempt to restart failed servers. 
+-port
+    The port the server advertises to clients. 
+-steam
+    Use this (along with -console) when you are running the version of SRCDS downloaded through Steam. 
+-tickrate <number>
+    Specifies Server-Tickrate (for more info see Source Multiplayer Networking). This doesn't exist on TF2, CSS, L4D, and L4D2. 
+-timeout <number>
+    Sleep for <number> seconds before restarting a failed server. 
+-dumplongticks
+    Generate minidumps when there are long server frames 
+-usercon
+    Enables RCON for CS:GO Servers 
+
+Console variables
+
+    +<console variable> <arg> - Sets the Cvar (or console variable) to the specified setting.
+
+Some useful console variables
+
+    +hostname "Hostname" - Specifies the name of the server (Spaces between words won't work here!).
+    +ip - Specifies the IP when multiple network cards are installed (Old, but still works).
+    +map <map> - Specifies which map to start.
+    +maxplayers <number> - Specifies how many player slots the server can contain (Old, but still works).
+    +hostport <port> - Specifies the host port (Port specification before -port was added, but can still be used).
+    +clientport <port> - Specifies the client port (The port the server advertises to clients, the same as -port and clientport in console)
+    +sv_lan <0/1> - If set to 1, server is only available in Local Area Network (LAN).
+
+Linux command options in Left 4 Dead (2)
+
+The linux version of Left 4 Dead and Left 4 Dead 2 dedicated server added extra server commands.
+
+As part of the forking functionality mentioned below, the server parameters support substitution. For instance, if you specify +exec autoexec##.cfg, then the first server will execute autoexec01.cfg, the second autoexec02.cfg, and so on.
+
+    -netconport <number> - Creates a remotely accessible server console on the specified port. This can be connected to with telnet or similar applications, and allows controlling of the server as if the commands were being typed in at the console
+    -netconpassword "password" - It set, users must type PASS "password" to use the remote console described above
+    -fork <number> - Starts up the specified number of servers at once. They will each use the first available port number at 27015 or above.
+
+Half-Life Dedicated Server
+
+These command-line parameters are used with hlds.exe for Goldsource (Half-Life) games.
+Command parameters are described inside the < and > characters.
+
+Syntax: hlds.exe <parameter1> <parameter2> <cvar1> <cvar2>
+Examples
+
+    hlds.exe -console -game cstrike +sv_lan 0 +maxplayers 22 +map de_dust2
+    ./hlds_run -game cstrike -autoupdate -pingboost 2 -port 27016 +maxplayers 20 +map de_dust2
+
+Command-line parameters
+
+    -condebug - Stores console output to "Half-Life\qconsole.log".
+    Can be toggled with condebug console command.
+    -dev - Enables developer mode.
+    -autoupdate - The server is searching for updates on startup (no longer works?[confirm]).
+    -console - HLDS will run in console mode (Windows only).
+    -game <game> - Specifies which game/mod to run. Default is "valve".
+    -dll <name.dll> - Specifies which DLL to use. Ex: -dll addons\metamod\dlls\metamod.dll.
+    -nomaster - Disable communication with Master server. Use this parameter if you do not want your server to be listed in Server Browser.
+    Also disables server queries.
+    -insecure - Disables Valve Anti-Cheat technology.
+    -port <port> - Specifies which port to use for client connections. Default is 27015.
+    Can do the same with port console variable.
+    -sport <port> - Specifies the VAC port the server should use. Default is 26900.
+    You only need to change -sport if VAC connections fail through the primary port.
+    -noip - Disables network support.
+    -noipx - Disables IPX support.
+    -tos - Enables the LOWDELAY TOS header in the udp/ip packets the server generates. (Linux only)
+    -nobreakpad - Let plugin authors still get old style minidumps if they need it (win32 only)
+    -num_edicts <variable> - Sets the entity limit for map/game entities (not temporary entities, which is still locked to 500). 900 is default. 4096 is a good limit, beyond that seems to cause hunk_alloc errors[confirm]. Both clients and servers need matching values for best compatibility[confirm].
+    -heapsize <kilobytes> - Specifies the amount of heap(or free store - cache, an area of memory used for dynamic memory allocation) the engine will use. Minimum value is 14336(14 MB). Maximum value is 131072(128 MB). By default this is set to 40960 (40 MB) and automatically adjusted to suit your system.
+    Low value causes "Unable to allocate X.X MB" exit error.
+    -zone <bytes> - Specifies the amount of Bytes of memory for use with the console system.
+    Low value causes Z_Malloc exit error.
+    -maxplayers <number> - Sets the maximum number of players that will be able to join your server.
+    Can do the same with maxplayers console variable.
+    -sys_ticrate - Overrides sys_ticrate cvar.
+    -exec <file> - Execute specific config file immediately after the engine is loaded.
+    +<console variable> <arg> - Sets the Cvar (or console variable) to the specified setting.
+
+Useful console variables
+
+    +hostname "Server Name" - Specifies the name of the server.
+    +ip <address> - Specifies the IP when multiple network cards are installed. Required for VAC2 operation.
+    Usually you do not need to specify this.
+    +map <map> - Specifies which map to start with.
+    +sv_lan <0/1> - If set to 1, server is only available in Local Area Network (LAN).
+    +mapchangecfgfile <file> - Like Server.cfg, ran after every round change, before Plugins are started.
+    -pingboost <1/2/3> - Selects between optimized HLDS network code stack. Set this on 2 usually reduces latency toward 1ms without loss of activity input packets.
