@@ -1,0 +1,2158 @@
+_fov
+restart
+addip
+adsp_alley_min
+adsp_courtyard_min
+adsp_debug	0		None
+adsp_door_height	112		None
+adsp_duct_min	106		None
+adsp_hall_min	110		None
+adsp_low_ceiling	108		None
+adsp_opencourtyard_min	126		None
+adsp_openspace_min	130		None
+adsp_openstreet_min	118		None
+adsp_openwall_min	130		None
+adsp_room_min	102		None
+adsp_street_min	118		None
+adsp_tunnel_min	114		None
+adsp_wall_height	128		None
+ai_actbusy_search_time	10		None
+ai_ally_manager_debug	0		None
+ai_auto_contact_solver	1		None
+ai_citizen_debug_commander	1		None
+ai_clear_bad_links			Clearsbitssetonnavlinksindicatinglinkisunusable
+ai_debug_actbusy	0	Yes	Usedtodebugactbusybehavior.Usage:
+
+1
+ConstantlydrawlinesfromNPCstotheactbusynodesthey'vechosentoactbusyat.
+2
+WheneveranNPCmakesadecisiontouseanactbusy,showwhichactbusythey'vechosen.
+3
+SelectedNPCs(withnpc_select)willreportwhythey'renotchoosingactbusynodes.
+4
+Displaydebugoutputofactbusylogic.
+
+ai_debug_assault	0		None
+ai_debug_directnavprobe	0		None
+ai_debug_doors	0		None
+ai_debug_efficiency	0		None
+ai_debug_enemies	0		None
+ai_debug_expressions	0		ShowrandomexpressiondecisionsforNPCs.
+ai_debug_follow	0		None
+ai_debug_loners	0		None
+ai_debug_looktargets	0		None
+ai_debug_los	0	Yes	Highlightswhatblocks(orisabletoblock)NPClineofsight.
+ai_debug_nav	0		None
+ai_debug_node_connect			Debugtheattemptedconnectionbetweentwonodes
+ai_debug_ragdoll_magnets	0		None
+ai_debug_readiness	0		None
+ai_debug_shoot_positions	0		None
+ai_debug_speech	0		None
+ai_debug_squads	0		None
+ai_debug_think_ticks	0		None
+ai_debugscriptconditions	0		None
+ai_disable			BypassesallAIlogicroutinesandputsallNPCsintotheiridleanimations.CanbeusedtogetNPCsoutofyourwayandtotesteffectofAIlogicroutinesonframerate
+ai_drawbattlelines	0	Yes	None
+ai_dump_hints			None
+ai_efficiency_override	0		None
+ai_follow_move_commands	1		None
+ai_follow_use_points	1		None
+ai_follow_use_points_when_moving	1		None
+ai_lead_time	0		None
+ai_LOS_mode	0		None
+ai_moveprobe_debug	0		None
+ai_moveprobe_jump_debug	0		None
+ai_moveprobe_usetracelist	0		None
+ai_new_aiming	1		None
+ai_newgroundturret	0		None
+ai_next_hull			Cyclesthroughthevarioushullsizes.Currentlyselectedhullsizeiswrittentothescreen.Controlswhichconnectionsareshownwhenai_show_hullorai_show_connectcommandsareused
+ai_no_local_paths	0		None
+ai_no_node_cache	0		None
+ai_no_select_box	0		None
+ai_no_steer	0		None
+ai_no_talk_delay	0		None
+ai_nodes			Togglesnodedisplay.Firstcalldisplaysthenodesforthegivennetworkasgreenobjects.SecondcalldisplaysthenodesandtheirIDs.Nodesarecolorcodedasfollows:
+
+Green
+Groundnode
+Cyan
+Airnode
+Magenta
+Climbnode
+Grey
+Nodenotavailableforselectedhullsize
+Orange
+Nodecurrentlylocked
+
+ai_norebuildgraph	0		None
+ai_path_adjust_speed_on_immediate_turns	1		None
+ai_path_insert_pause_at_est_end	1		None
+ai_path_insert_pause_at_obstruction	1		None
+ai_reaction_delay_alert	0		None
+ai_reaction_delay_idle	0		None
+ai_readiness_decay	120		None
+ai_rebalance_thinks	1		None
+ai_reloadresponsesystems			Reloadallresponsesystemscripts.
+ai_report_task_timings_on_limit	0		None
+ai_resume			IfNPCissteppingthroughtasks(seeai_step)willresumenormalprocessing.
+ai_sequence_debug	0		None
+ai_set_move_height_epsilon			SethowhighAIbumpsupgroundwalkerswhencheckingsteps
+ai_shot_bias	1		None
+ai_shot_bias_max	1		None
+ai_shot_bias_min	-1		None
+ai_shot_stats	0		None
+ai_shot_stats_term	1000		None
+ai_show_connect			Displaystheallowedconnectionsbetweeneachnodeforthecurrentlyselectedhulltype.Hullsarecolorcodeasfollows:
+
+Green
+Groundmovement
+Blue
+Jumpingmovement
+Cyan
+Flyingmovement
+Magenta
+Climbingmovement
+Red
+Connectiondisabled
+
+ai_show_connect_fly			Displaystheallowedconnectionsbetweeneachnodeforthecurrentlyselectedhulltype.Hullsarecolorcodeasfollows:
+
+Green
+Groundmovement
+Blue
+Jumpingmovement
+Cyan
+Flyingmovement
+Magenta
+Climbingmovement
+Red
+Connectiondisabled
+
+ai_show_connect_jump			Displaystheallowedconnectionsbetweeneachnodeforthecurrentlyselectedhulltype.Hullsarecolorcodeasfollows:
+
+Green
+Groundmovement
+Blue
+Jumpingmovement
+Cyan
+Flyingmovement
+Magenta
+Climbingmovement
+Red
+Connectiondisabled
+
+ai_show_graph_connect			Togglesgraphconnectiondisplayforthenodethattheplayerislookingat.Nodesthatareconnectedtotheselectednodebythenetgraphwillbedrawninredwithmagentalinesconnectingtotheselectednode.Nodesthatarenotconnectedviathenetgraphfromtheselectednodewillbedrawninblue.
+ai_show_grid			Drawagridonthefloorwherelooking.
+ai_show_hints			Displaysallhintsassmallboxes
+
+Blue
+Hintisavailableforuse
+Red
+HintiscurrentlybeingusedbyanNPC
+Orange
+Hintnotbeingusedbytimedout
+Grey
+Hinthasbeendisabled
+
+ai_show_hull			Displaystheallowedhullsbetweeneachnodeforthecurrentlyselectedhulltype.Hullsarecolorcodeasfollows:
+
+Green
+Groundmovement
+Blue
+Jumpingmovement
+Cyan
+Flyingmovement
+Magenta
+Climbingmovement
+
+ai_show_hull_attacks	0		None
+ai_show_node			Highlightthespecifiednode
+ai_show_think_tolerance	0		None
+ai_show_visibility			Togglesvisibilitydisplayforthenodethattheplayerislookingat.Nodesthatarevisiblefromtheselectednodewillbedrawninredwithyellowlinesconnectingtotheselectednode.Nodesthatarenotvisiblefromtheselectednodewillbedrawninblue.
+ai_simulate_task_overtime	0		None
+ai_spread_cone_focus_time	0		None
+ai_spread_defocused_cone_multiplier	3		None
+ai_spread_pattern_focus_time	0		None
+ai_step			NPCswillfreezeaftercompletingtheircurrenttask.Tocompletethenexttask,use'ai_step'again.Toresumeprocessingnormallyuse'ai_resume'
+ai_think_limit_label	0		None
+ai_use_clipped_paths	1		None
+ai_use_efficiency	1		None
+ai_use_frame_think_limits	1		None
+ai_use_readiness	1		None
+ai_use_think_optimizations	1		None
+ainet_generate_report			Generateareporttotheconsole.
+ainet_generate_report_only			Generateareporttotheconsole
+air_density			Changesthedensityofairfordragcomputations
+airboat_fatal_stress	5000		Amountofstressinkgthatwouldkilltheairboatdriver
+alias			Createsaliasesforothercommands
++alt1			None
+-alt1			None
++attack			Launchestheselectedweapon'sprimaryattack
+-attack			Stopstheselectedweapon'sprimaryattack
++attack2			Launchestheselectedweapon'ssecondaryattack
+-attack2			Stopstheselectedweapon'ssecondaryattack
+autosave			None
+Commandsstartingwithletter"B"
+Command	Default	Cheat?	HelpText
++back		No	Startmovingplayerbackward(buttondown)
+-back		No	Stopmovingplayerbackward(buttonup)
+banid		No	AddauserIDtothebanlist.
+bench_end	No	Yes	Endsgatheringofinfo.
+bench_showstatsdialog		No	Showsadialogdisplayingthemostrecentbenchmarkresults.
+bench_start		No	Startsgatheringofinfo.
+
+Arguments:<filename>
+bench_upload		No	UploadsmostrecentbenchmarkstatstotheValveservers.
+benchframe		No	Takesasnapshotofaparticularframeinatimedemo.
+bgmvolume	1	No	CDsoundplaybackvolume.
+bind		No	Bindakey.
+
+Arguments:<key>"<command>"
+BindToggle		No	B
+birds_debug	0	No	None
+blink_duration	0.2	No	Howmanysecondsaneyeblinkwilllast.
+bloodspray		No	blood
+box		No	Drawadebugbox.
++break		No	None
+-break		No	None
+breakable_disable_gib_limit	0	No	None
+breakable_multiplayer	1	No	None
+buddha		No	Toggle.Playertakesdamagebutwon'tdie.(Showsredcrosswhenhealthiszero)
+budget_averages_window	30	No	numberofframestolookatwhenfiguringoutaverageframetimes
+budget_background_alpha	128	No	howtranslucentthebudgetpanelis
+budget_bargraph_background_alpha	128	No	howtranslucentthebudgetpanelis
+budget_bargraph_range_ms	16	No	budgetbargraphrangeinmilliseconds
+budget_history_numsamplesvisible	100	No	numberofsamplestodrawinthebudgethistorywindow.Thelowerthebetterasfarasrenderingoverheadofthebudgetpanel
+budget_history_range_ms	66	No	budgethistoryrangeinmilliseconds
+budget_panel_bottom_of_history_fraction	0	No	numberbetween0and1
+budget_panel_height	384	No	heightinpixelsofthebudgetpanel
+budget_panel_width	512	No	widthinpixelsofthebudgetpanel
+budget_panel_x	0	No	numberofpixelsfromtheleftsideofthegamescreentodrawthebudgetpanel
+budget_panel_y	50	No	numberofpixelsfromthetopsideofthegamescreentodrawthebudgetpanel
+budget_peaks_window	30	No	numberofframestolookatwhenfiguringoutpeakframetimes
+budget_show_averages	0	No	enable/disableaveragesinthebudgetpanel
+budget_show_history	1	No	turnhistorygraphoffandon..goodtoturnoffonlowend
+budget_show_peaks	1	No	enable/disablepeaksinthebudgetpanel
+bug		No	Show/hidethebugreportingUI.
+bug_swap		No	Automaticallyswapsthecurrentweaponforthebugbaitandbackagain.
+bugreporter_includebsp	1	No	Include.bspforinternalbugsubmissions.
+buildcubemaps		No	Rebuildcubemaps.
+building_cubemaps	0	No	None
+Commandsstartingwithletter"C"
+Command	Default	Cheat?	HelpText
+c_maxdistance	200	Yes	None
+c_maxpitch	90	No	None
+c_maxyaw	135	No	None
+c_mindistance	30	Yes	None
+c_minpitch	0	Yes	None
+c_minyaw	-135	Yes	None
+c_orthoheight	100	Yes	None
+c_orthowidth	100	Yes	None
+cache_print		No	Printoutcontentsofcachememory.
+cam_command	0	Yes	Changescameraview,first/thirdperson
+cam_idealdist	150	Yes	Camdistancefromplayer
+cam_idealdistup	0	Yes	Camabove/belowplayer
+cam_idealdistright	0	Yes	Camleft/rightofplayer
+cam_idealpitch	0	Yes	None
+cam_idealyaw	90	Yes	0=Behindplayer,90=Rightarm
+cam_snapto	0	Yes	None
++camdistance		No	None
+-camdistance		No	None
++cammousemove		No	None
+-cammousemove		No	None
+camortho		No	Switchtoorthographiccamera.
+
+Thereiscurrentlynoknownwaytoexitthismodewithoutrestartingtheengine.
++camin		No	None
+-camin		No	None
++camout		No	None
+-camout		No	None
++campitchdown		No	None
+-campitchdown		No	None
++campitchup		No	None
+-campitchup		No	None
++camyawleft		No	None
+-camyawleft		No	None
++camyawright		No	None
+-camyawright		No	None
+cancelselect		No	None
+cast_hull		No	Testshullcollisiondetection
+cast_ray		No	Testscollisiondetection
+cc_captiontrace	1	No	Showmissingclosecaptions:(0=no,1=devconsole,2=showinHUD)
+cc_emit		No	Emitsaclosedcaption
+cc_lang	0	No	Currentclosecaptionlanguage(empty=usegameUIlanguage)
+cc_linger_time	1	No	Closecaptionlingertime
+cc_lookup_crc		No	FortrackingdownmissingCCtokenstrings
+cc_predisplay_time	0	No	Closecaptiondelaybeforeshowingcaption
+cc_sentencecaptionnorepeat	4	No	Howoftenasentencecanrepeat
+cc_subtitles	0	No	Ifset,don'tshowsoundeffectcaptions,justvoiceovers(i.e.,won'thelphearingimpairedplayers)
+cd		No	PlayorstopaCDtrack
+centerview		No	None
+ch_createairboat		No	Spawnairboatinfrontoftheplayer
+ch_createjeep		No	Spawnjeepinfrontoftheplayer
+changelevel		No	Changeservertothespecifiedmap
+changelevel2		No	Transitiontothespecifiedmapinsingleplayer
+cl_allowdownload	1	No	Clientdownloadscustomizationfiles
+cl_allowupload	1	No	Clientuploadscustomizationfiles
+cl_anglespeedkey	0	No	None
+cl_animationinfo		No	HUDelementtoexamine
+cl_backspeed	400	No	None
+cl_bob	0.2	No	None
+cl_bobcycle	0	No	None
+cl_bobup	0	No	None
+cl_class	0	No	Defaultclasswhenjoiningagame
+cl_clock_correction	1	Yes	Enable/disableclockcorrectionontheclient
+cl_clock_correction_adjustment_max_amount	200	Yes	Setsthemaximumnumberofmillisecondsperseconditisallowedtocorrecttheclientclock.Itwillonlycorrectthisamountifthedifferencebetweentheclientandserverclockisequaltoorlargerthancl_clock_correction_adjustment_max_offset
+cl_clock_correction_adjustment_max_offset	90	Yes	Astheclockoffsetgoesfromcl_clock_correction_adjustment_min_offsettothisvalue(inmilliseconds),itmovestowardsapplyingcl_clock_correction_adjustment_max_amountofadjustment.Thatway,theresponseissmallwhentheoffsetissmall
+cl_clock_correction_adjustment_min_offset	10	Yes	Iftheclockoffsetislessthanthisamount(inmilliseconds),thennoclockcorrectionisapplied
+cl_clock_correction_force_server_tick	999	Yes	Forceclockcorrectiontomatchtheservertick+thisoffset(-999disablesit).
+cl_clock_showdebuginfo	0	Yes	Showdebugginginfoabouttheclockdrift.
+cl_clockdrift_max_ms	150	Yes	Maximumnumberofmillisecondstheclockisallowedtodriftbeforetheclientsnapsitsclocktotheserver's.
+cl_cmdbackup	2	No	Foreachcommandpacket,howmanyadditionalhistorycommandsaresent(helpsincaseofpacketloss)(Thiscommandnolongerexists)
+cl_cmdrate	30	No	Maxnumberofcommandpacketssenttoserverpersecond
+cl_customsounds	0	No	Enablecustomizedplayersoundplayback
+cl_demoviewoverride	0	No	Overrideviewduringdemoplayback
+cl_detaildist	1200	No	Distanceatwhichdetailprops(e.g.grass)areshown.
+cl_detailfade	400	No	Distanceittakesfordetailpropstogofromtransparenttoopaque.Ifthisvalueis>=cl_detaildist,itistreatedasifitwere0.
+cl_drawhud	1	Yes	EnabletherenderingoftheHUD
+cl_drawleaf	-1	Yes	None
+cl_drawmaterial	0	Yes	Drawaparticularmaterialovertheframe
+cl_drawmonitors	1	No	None
+cl_drawshadowtexture	0	Yes	None
+cl_ejectbrass	1	No	Determineswhetherspentshellsareshownejectingfromagun
+cl_ent_absbox		No	Displaystheclient'sabsboxfortheentityunderthecrosshair.
+cl_ent_bbox		No	Displaystheclient'sboundingboxfortheentityunderthecrosshair.
+cl_ent_rbox		No	Displaystheclient'srenderboxfortheentityunderthecrosshair.
+cl_entityreport	0	Yes	Fordebugging,drawentitystatestoconsole
+cl_extrapolate	1	Yes	Enable/disableextrapolationifinterpolationhistoryrunsout.
+cl_extrapolate_amount	0	Yes	Sethowmanysecondstheclientwillextrapolateentitiesfor.
+cl_flushentitypacket	0	Yes	Fordebugging.Forcetheenginetoflushanentitypacket.
+cl_forcehighendmonitors	1	No	None
+cl_forcepreload	0	No	Whetherweshouldforcepreloadingmodelandtextureinformationtovideomemoryatthebeginningofalevel.Makeslevelloadslonger,butcanreducestutteringcausedbyloadinginformationonthefly
+cl_forwardspeed	400	Yes	None
+cl_fullupdate		No	Forcestheservertosendafullupdatepacket
+cl_idealpitchscale	0	No	None
+cl_ignorepackets	0	Yes	Forceclienttoignorepackets(fordebugging).
+cl_interp	0	No	Interpolateobjectpositionsstartingthismanysecondsinpast
+cl_interp_npcs	0	No	InterpolateNPCpositionsstartingthismanysecondsinpast(orcl_interp,ifgreater)
+cl_interpolate	1	No	Interpolateentitiesontheclient.
+cl_lagcomp_errorcheck	0	No	Playerindexofotherplayertocheckforpositionerrors.
+cl_lagcompensation	1	No	Performserversidelagcompensationofweaponfiringevents.
+cl_leveloverview	0	Yes	None
+cl_localnetworkbackdoor	1	No	Enablenetworkoptimizationsforsingleplayergames.
+cl_logofile	0	No	Spraypointlogodecal.
+cl_maxrenderable_dist	3000	Yes	Maxdistancefromthecameraatwhichthingswillberendered
+cl_mouseenable	1	No	None
+cl_observercrosshair	1	No	None
+cl_overdraw_test	0	Yes	None
+cl_panelanimation		No	Showspanelanimationvariables
+cl_particleeffect_aabb_buffer	2	Yes	Addthisamounttoaparticleeffect'sbboxintheleafsystemsoifit'sgrowingslowly,itwon'thavetobereinsertedasoften
+cl_pclass	0	Yes	Dumpentitybypredictionclassname
+cl_pdump	-1	Yes	Dumpinfoaboutthisentitytoscreen.
+cl_phys_props_enable	1	No	Disableclientsidephysicsprops(mustbesetbeforeloadingalevel)
+cl_phys_props_max	300	No	Maximumclientsidephysicsprops
+cl_phys_timescale	1	Yes	Setsthescaleoftimeforclient-sidephysics(ragdolls)
+cl_pitchdown	89	No	None
+cl_pitchspeed	225	No	None
+cl_pitchup	89	No	None
+cl_playback_screenshots	0	No	Allowstheclienttoplaybackscreenshotandjpegcommandsindemos.
+cl_precacheinfo		No	Showprecacheinfo(client).
+cl_pred_optimize	2	No	Optimizefornotcopyingdataifdidn'treceiveanetworkupdate(1),andalsofornotrepredictingiftherewerenoerrors(2).
+cl_predict	0	No	Performclientsideprediction.
+cl_predictionlist	0	Yes	Showwhichentitiesarepredicting
+cl_predictweapons	1	No	Performclientsidepredictionofweaponeffects.
+cl_ragdoll_collide	0	No	None
+cl_rate	10000	No	Maxbytes/secthehostcansenddata(Thiscommandnolongerexists)
+cl_removedecals		No	Removethedecalsfromtheentityunderthecrosshair.
+cl_resend	6	No	Delayinsecondsbeforetheclientwillresendthe'connect'attempt
+cl_restrict_server_commands	1	No	Preventstheserverfromexecutingrandomconsolecommandsontheclient.Whencl_restrict_server_commandsisenabledonlyconcommandsmarkedwithFCVAR_SERVER_CAN_EXECUTEareallowed.Usage:
+
+0
+Don'trestrictanyservercommands.
+1
+RestrictservercommandsinValvemultiplayergames.
+2
+Restrictservercommandsinallmultiplayergames.
+
+cl_SetupAllBones	0	No	None
+cl_show_bloodspray	1	No	None
+cl_show_splashes	1	No	None
+cl_showanimstate	-1	Yes	Showthe(client)animationstateforthespecifiedentity(-1fornone).
+cl_showanimstate_log	0	Yes	1tooutputcl_showanimstatetoMsg().2tostoreinAnimState.log.3forboth.
+cl_showents		No	Dumpentitylisttoconsole.
+cl_showerror	0	Yes	Showpredictionerrors,2foraboveplusdetailedfielddeltas.
+cl_showevents	0	Yes	Printeventfiringinfointheconsole
+cl_showfps	0	No	SeeOptimizationCommands
+cl_showpos	0	No	Drawcurrentpositionattopofscreen
+cl_ShowSunVectors	0	No	None
+cl_showtextmsg	1	No	Enable/disabletextmessagesprintingonthescreen.
+cl_sidespeed	400	No	None
+cl_slist	10	No	Numberofsecondstowaitforserverpingresponseswhencheckingforserveronyourlan
+cl_smooth	1	No	Smoothview/eyeoriginafterpredictionerrors
+cl_smoothtime	0	No	Smoothclient'sviewafterpredictionerroroverthismanyseconds
+cl_soundemitter_flush	No	No	Flushesthesounds.txtsystem(clientonly)
+cl_soundfile	0	No	Jinglesoundfile.
+cl_soundscape_flush		No	Flushestheclientsidesoundscapes
+cl_soundscape_printdebuginfo		No	printsoundscapes
+cl_sun_decay_rate	0	Yes	None
+cl_team	0	No	Defaultteamwhenjoiningagame
+cl_timeout	30	No	Afterthismanysecondswithoutreceivingapacketfromtheserver,theclientwilldisconnectitself
+cl_updaterate	20	No	Numberofpacketspersecondofupdatesyouarerequestingfromtheserver
+cl_upspeed	320	Yes	None
+cl_view		No	Settheviewentityindex.
+cl_winddir	0	No	Weathereffectswinddirectionangle
+cl_windspeed	0	No	Weathereffectswindspeedscalar
+cl_yawspeed	210	No	None
+clear		No	Clearallconsoleoutput
+clear_debug_overlays		No	clearsdebugoverlays
+clientport	27005	No	Hostgameclientport
+closecaption	0	No	Enableclosecaptioning
+cmd		No	Forwardcommandtoserver
+collision_shake_amp	0	No	None
+collision_shake_freq	0	No	None
+collision_shake_time	0	No	None
+combine_guard_spawn_health	1	No	None
+combine_spawn_health	1	No	None
++commandmenu		No	GoldSrcCommandMenu
+-commandmenu		No	None
+con_drawnotify	1	No	Disablesdrawingofnotificationarea(fortakingscreenshots)
+con_enable	1	No	Allowstheconsoletobeactivated.
+con_filter_enable	0	No	Enablestheconsolefilter.
+con_filter_text		No	Filtersouteverythingexceptlinescontainingthespecifiedtext.
+con_filter_text_out		No	Filtersoutlineswiththespecifiedtext.
+con_notifytime	8	No	Howlongtodisplayrecentconsoletexttotheupperpartofthegamewindow
+con_nprint_bgalpha	50	No	Con_NPrintbackgroundalpha.
+con_nprint_bgborder	5	No	Con_NPrintbordersize.
+con_trace	0	No	Printconsoletexttolowlevelprintout.
+connect		No	Connecttospecifiedserver.
+contimes	8	No	Numberofconsolelinestooverlayfordebugging.
+coop	0	No	Cooperativeplay.
+CreateHairball		No	None
+creditsdone		No	None
+crosshair	1	No	None
+curve_bias	0	No	None
+cvarlist		No	Showthelistofconvars/concommands.
+Commandsstartingwithletter"D"
+Command	Default	Cheat?	HelpText
+deathmatch	0	No	Runningadeathmatchserver
+debug_physimpact	0	No	None
+decalfrequency	10	No	None
+default_fov	75	Yes	None
+demo_debug	0	No	Demodebuginfo
+demo_fastforwardfinalspeed	20	No	GothisfastwhenholdingFFbuttonforasetamountoftime(seebelow)
+demo_fastforwardramptime	5	No	HowmanysecondsittakestogettofullFFspeed
+demo_fastforwardstartspeed	2	No	GothisfastwhenstartingtoholdFFbutton
+demo_interpolateview	1	No	Doviewinterpolationduringdemplayback
+demo_pauseatservertick	0	No	Pausesdemoplaybackatservertick
+demo_quitafterplayback	0	No	Quitsgameafterdemoplayback.
+demo_recordcommands	1	No	Recordcommandstypedatconsoleinto.demfiles
+demolist		No	Printdemosequencelist.
+demopause		No	Pausesdemoplayback.
+demoresume		No	Resumesdemoplayback.
+demos		No	Demodemofilesequence
+demotimescale		No	Setsdemoreplayspeed.
+demotogglepause		No	Togglesdemoplayback.
+demoui		No	Show/hidethedemoplayerUI.
+developer	0	No	Showdevelopermessages.
+differences		No	Showallconvarswhicharenotattheirdefaultvalues
+disconnect		No	Disconnectgamefromserver.
+disp_dynamic	0	No	None
+disp_modlimit	80	No	None
+disp_modlimit_down	20	No	None
+disp_modlimit_up	80	No	None
+disp_numiterations	1	Yes	None
+dispcoll_drawplane	0	No	None
+displaysoundlist	0	No	None
+dog_debug	0	No	None
+dog_max_wait_time	7	No	None
+drawcross		No	Drawsacrossatthegivenlocation.Arguments:xyz
+drawline		No	Drawslinebetweentwo3DPoints
+
+Green
+Ifnocollision
+Red
+Iscollidedwithsomething
+Arguments
+x1y1z1x2y2z2
+
+dropprimary			dropprimary:Dropstheprimaryweaponoftheplayer.NOTE:Doesn'tworkandneedsfixing
+dsp_automatic	0	No	None
+dsp_db_min	80	No	None
+dsp_db_mixdrop	0	No	None
+dsp_dist_max	1440	No	None
+dsp_dist_min	0	No	None
+dsp_enhance_stereo	1	No	None
+dsp_facingaway	0	No	None
+dsp_mix_max	0	No	None
+dsp_mix_min	0	No	None
+dsp_off	0	Yes	None
+dsp_player	0	No	None
+dsp_reload		No	None
+dsp_room	0	No	None
+dsp_slow_cpu	0	No	None
+dsp_spatial	40	No	None
+dsp_speaker	50	No	None
+dsp_vol_2ch	1	No	None
+dsp_vol_4ch	0	No	None
+dsp_vol_5ch	0	No	None
+dsp_volume	1	No	None
+dsp_water	14	No	None
+dti_flush		No	Writeoutthedatatableinstrumentationfiles(youmustrunwith-dtiforthistowork)
+dtwarning	0	No	Printdatatablewarnings
+dtwatchent	-1	No	Watchthisentitiesdatatableencoding
+dtwatchvar	0	No	Watchthenamedvariable
++duck		No	Startplayerducking(buttondown)
+-duck		No	Stopplayerducking(buttonup)
+dump_globals		No	Dumpallglobalentities/states
+dumpstringtables		No	Printstringtablestoconsole
+Commandsstartingwithletter"E"
+Command	Default	Cheat?	HelpText
+echo		No	Echotexttoconsole.
+editdemo		No	Editarecordeddemofile(.dem)
+endmovie		No	Stoprecordingmovieframes
+english	1	No	Ifsetto1,runningtheenglishlanguagesetofassets
+ent_absbox		No	Displaysthetotalboundingboxforthegivenentity(s)ingreen.Someentiteswillalsodisplayentityspecificoverlays
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_bbox		No	Displaysthemovementboundingboxforthegivenentity(ies)inorange.Someentiteswillalsodisplayentityspecificoverlays
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_debugkeys	0	No	None
+ent_dump		No	Usage:ent_dump<entityname></pre>
+ent_fire		No	Usage:ent_fire<target>actionvaluedelay
+ent_info		No	Usage:ent_info<classname></pre>
+ent_messages		No	Togglesinput/outputmessagedisplayfortheselectedentity(ies).Thenameoftheentitywillbedisplayedaswellasanymessagesthatitsendsorreceives
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_messages_draw	0	Yes	Visualizesallentityinput/outputactivity
+ent_name		No	None
+ent_pause		No	Togglespausingofinput/outputmessageprocessingforentities.Whenturnedonprocessingofallmessagewillstop.Anymessagesdisplayedwith'ent_messages'willstopfadingandbedisplayedindefinitely.Tostepthroughthemessagesonebyoneuse'ent_step'
+ent_pivot		No	Displaysthepivotforthegivenentity(ies).(y=up=green,z=forward=blue,x=left=red)
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_rbox		No	Displaysthetotalboundingboxforthegivenentity(s)ingreen.Someentiteswillalsodisplayentityspecificoverlays
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_remove		No	Removesthegivenentity(s)
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_remove_all		No	Removesallentitiesofthespecifiedtype;Arguments:{entity_name}/{class_name}
+ent_setname		No	Setsthetargetnameofthegivenentity(s)
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_show_response_criteria		No	Print,totheconsole,anentity'scurrentcriteriasetusedtoselectresponses
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+ent_step		No	When'ent_pause'issetthiswillstepthroughonewaitinginput/outputmessageatatime
+ent_text		No	Displaystextdebugginginformationaboutthegivenentity(ies)ontopoftheentity(SeeOverlayText)
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat
+
+envmap		No	None
+escape		No	Escapekeypressed
+exec		No	Executesaconfiginthe'cfg'directory.//execconfig_default.cfg
+
+Configfilesinsub-directoriescanbeaccessedbyspecifyingtheirlocationrelativetothecfgdirectory.
+
+Example
+execotherConfigs/config1.cfg//Executesconfigurationfilenamed"config1.cfg"foundinthe"cfg/otherConfigs/"directory
+
+exit		No	Exittheengine
+Commandsstartingwithletter"F"
+Command	Default	Cheat?	HelpText
+fadein		No	fadein{timergb}:Fadesthescreeninfromblackorfromthespecifiedcoloroverthegivennumberofseconds
+fadeout		No	fadeout{timergb}:Fadesthescreentoblackortothespecifiedcoloroverthegivennumberofseconds
+find		No	Findconcommandswiththespecifiedstringintheirname/helptext.
+findflags		No	Displaysalistofconsolecommandswiththespecifiedflags.Usage:findflags<string>
+
+Availableflagstosearchfor:
+
+-ARCHIVE
+-SPONLY
+-GAMEDLL
+-CHEAT
+-USERINFO
+-NOTIFY
+-PROTECTED
+-PRINTABLEONLY
+-UNLOGGED
+-NEVER_AS_STRING
+-REPLICATED
+-DEMO
+-DONTRECORD
+-SERVER_CAN_EXECUTE
+-CLIENTCMD_CAN_EXECUTE
+-CLIENTDLL
+-MATERIAL_SYSTEM
+-STUDIORENDER
+
+fire_absorbrate	3	No	None
+fire_dmgbase	1	No	None
+fire_dmginterval	1	No	None
+fire_dmgscale	0	No	None
+fire_extabsorb	5	No	None
+fire_extscale	12	No	None
+fire_growthrate	1	No	None
+fire_heatscale	1	No	None
+fire_incomingheatscale	0	No	None
+fire_maxabsorb	50	No	None
+firetarget		No	None
+firstperson		Yes	Switchtofirstpersoncamera
+flex_expression	0	No	None
+flex_looktime	5	No	None
+flex_maxawaytime	1	No	None
+flex_maxplayertime	7	No	None
+flex_minawaytime	0	No	None
+flex_minplayertime	5	No	None
+flex_rules	1	No	Allowflexanimationrulestorun
+flex_smooth	1	No	Appliessmoothing/decaycurvetoflexanimationcontrollerchanges
+flex_talk	0	No	None
+flush		No	Flushcachememory
+flush_locked		No	Flushlockedcachememory
+fog_color	-1	No	None
+fog_colorskybox	-1	No	None
+fog_enable	1	Yes	None
+fog_enable_water_fog	1	No	None
+fog_enableskybox	1	No	None
+fog_end	-1	Yes	None
+fog_endskybox	-1	No	None
+fog_override	0	Yes	None
+fog_start	-1	Yes	None
+fog_startskybox	-1	No	None
+force_centerview		No	Positionstheplayer'sviewstraightahead
++forward		No	Startmovingplayerforward(buttondown)
+-forward		No	Stopmovingplayerforward(buttonup)
+fov		No	ChangeplayersFOV
+fps_max	300	No	Frameratelimiter
+free_pass_peek_debug	0	No	None
+fs_printopenfiles		No	Showallfilescurrentlyopenedbytheengine
+fs_warning_level		Yes	Setthefilesystemwarninglevel
+func_break_max_pieces	15	No	None
+func_breakdmg_bullet	0	No	None
+func_breakdmg_club	1	No	None
+func_breakdmg_explosive	1	No	None
+Commandsstartingwithletter"G"
+Command	Default	Cheat?	HelpText
+g_ai_citizen_show_enemy	0		None
+g_antlion_maxgibs	16		None
+g_debug_antlion	0		None
+g_debug_antlionguard	0		None
+g_debug_antlionmaker	0	Yes	None
+g_debug_basehelicopter	0	Yes	None
+g_debug_combine_camera	0		None
+g_debug_cscanner	0		None
+g_debug_doors	0		None
+g_debug_dropship	0		None
+g_debug_dynamicresupplies	0		Debugitem_dynamic_resupplyspawning.Setto1toseetextprintoutsofthespawning.Setto2toseelinesdrawntootheritemsfactoredintothespawning.
+g_debug_gunship	0	Yes	None
+g_debug_headcrab	0	Yes	None
+g_debug_physcannon	0		None
+g_debug_ragdoll_removal	0	Yes	None
+g_debug_ragdoll_visualize	0	Yes	None
+g_debug_trackpather	0	Yes	None
+g_debug_transitions	0		Setto1andrestartthemaptobewarnedifthemaphasnotrigger_transitionvolumes.Setto2toseeadumpofallentities&associatedresultsduringatransition.
+g_debug_turret	0		None
+g_debug_turret_ceiling	0		None
+g_debug_vehiclebase	0	Yes	None
+g_debug_vehicledriver	0	Yes	None
+g_debug_vehicleexit	0	Yes	None
+g_debug_vehiclesound	0	Yes	None
+g_helicopter_bullrush_bomb_enemy_distance	0		None
+g_helicopter_bullrush_bomb_speed	850		Themaximumdistancetheplayercanbefromthechopperbeforeitstopsfiring
+g_helicopter_bullrush_bomb_time	10		None
+g_helicopter_bullrush_distance	5000		None
+g_helicopter_bullrush_mega_bomb_health	0		Fractionofthehealthofthechopperbeforeitmega-bombs
+g_helicopter_bullrush_shoot_height	650		Themaximumdistancetheplayercanbefromthechopperbeforeitstopsfiring
+g_helicopter_chargetime	2		Howmuchtimewehavetowait(onaverage)betweenthetimewestarthearingthechargingsound+thechopperfires
+g_helicopter_idletime	3		Howmuchtimewehavetowait(onaverage)afterwefirebeforewecanchargeupagain
+g_helicopter_maxfiringdist	2500		Themaximumdistancetheplayercanbefromthechopperbeforeitstopsfiring
+g_jeepexitspeed	100	Yes	None
+g_Language	0		None
+g_ragdoll_fadespeed	600		None
+g_ragdoll_maxcount	8		None
+g_test_new_antlion_jump	1		None
+gameui_hide			None
+getpos			dumppositionandanglestotheconsole
+give			Giveitemtoplayer.Arguments:<item_name>
+gl_clear	0		None
+god		Yes	Toggle.Playerbecomesinvulnerable.(Suitwillstilltakedamage.)
++graph			None
+-graph			None
+groundlist			Displaygroundentitylist<index>
+Commandsstartingwithletter"H"
+Command	Default	Cheat?	HelpText
+hammer_update_entity			OrangeBoxreplacementforwc_update_entity
+heartbeat			None
+help			Findhelpaboutaconvar/concommand
+hideconsole			Hidetheconsole
+hidehud	0	Yes	Whensetto1(oranyvaluethatisnot0or2)thisdisablestheweaponchanginghud,aswellastheplayersabilitytochangeweapons.Whensetto4,thiswillremovethecrosshairaswell
+hidepanel			Hidesaviewportpanel<name>
+hltv_autorecord	0		AutomaticallyrecordsallgamesasHLTVdemos
+hltv_cam_distance	96		DefaultHLTVchasecameradistance
+hltv_cam_fov	90		DefaultHLTVchasecameraFOV
+hltv_cam_inertia	100		DefaultHLTVchasecamerainertia
+hltv_cam_offset	64		DefaultHLTVchasecameraoffset
+hltv_cam_phi	0		DefaultHLTVchasecameraphiangle
+hltv_cam_theta	0		DefaultHLTVchasecamerathetaangle
+hltv_connect			ConnecttospecifiedHLTVserver
+hltv_debug	0		HLTVdebuginfo
+hltv_delay	10		HLTVbroadcastdelayinseconds
+hltv_maxclients	128		MaximumclientnumberonHLTVserver
+hltv_maxrate	3500		Maxclientbandwidthrateallowed,0==unlimited
+hltv_port	27020		HostHLTVport
+hltv_record			StartsHLTVdemorecording
+hltv_retry			ReconnectstheHLTVrelayproxy
+hltv_snapshotinterval	2		Takegamesnapshoteverynthtick
+hltv_status			ConnecttospecifiedHLTVserver
+hltv_stop			StopstheHLTVbroadcast
+hltv_stoprecord			StopsHLTVdemorecording
+hltv_viewent	0		HLTVcameraentityindex
+host_framerate	0		Settolockper-frametimeelapse
+host_limitlocal	0		Applycl_cmdrateandcl_updateratetoloopbackconnection
+host_map	0		Currentmapname
+host_profile	0		None
+host_runofftime			Runoffsometimewithoutrendering/updatingsounds
+host_showcachemiss	0		Printadebugmessagewhentheclientorservercacheismissed
+host_sleep	0	Yes	Forcethehosttosleepacertainnumberofmillisecondseachframe
+host_speeds	0		Showgeneralsystemrunningtimes
+host_timescale	1	Yes	Prescaletheclockbythisamount
+host_writeconfig			Storecurrentsettingstoconfigcfg(orspecifiedcfgfile)
+hostname	0		Hostnameforserver
+hostport	27015		Hostgameserverport
+hud_airboathint_numentries	10		None
+hud_autoreloadscript	0		Automaticallyreloadstheanimationscripteachtimeoneisran
+hud_deathnotice_time	6		None
+hud_drawhistory_time	5		None
+hud_fastswitch	0		None
+hud_jeephint_numentries	10		None
+hud_quickinfo	0		None
+hud_reloadscheme			Reloadshudlayoutandanimationscripts
+hud_saytext_time	12		None
+hurtme			Hurtstheplayer
+
+Arguments:<healthtolose>
+Commandsstartingwithletter"I"
+Command	Default	Cheat?	HelpText
+impulse		Sometimes	Seeimpulse.
+incrementvar		No	Incrementspecifiedconvarvalue.
+invnext		No	Selectsthenextweaponintheplayer'sinventory
+invprev		no	Selectsthepreviousweaponintheplayer'sinventory
+ip	0	no	OverridesIPformultihomedhosts
+Commandsstartingwithletter"J"
+Command	Default	Cheat?	HelpText
+joy_advanced	0	No	None
+joy_advaxisr	0	No	None
+joy_advaxisu	0	No	None
+joy_advaxisv	0	No	None
+joy_advaxisx	0	No	None
+joy_advaxisy	0	No	None
+joy_advaxisz	0	No	None
+joy_diagonalpov	0	No	POVmanipulatoroperatesondiagonalaxes,too
+joy_forwardsensitivity	-1	No	None
+joy_forwardthreshold	0	No	None
+joy_name	0	No	None
+joy_pitchsensitivity	1	No	None
+joy_pitchthreshold	0	No	None
+joy_sidesensitivity	-1	No	None
+joy_sidethreshold	0	No	None
+joy_wingmanwarrior_centerhack	0	No	Wingmanwarriorcenteringhack
+joy_wingmanwarrior_turnhack	0	No	Wingmanwarriorhackrelatedtoturnaxes
+joy_yawsensitivity	-1	No	None
+joy_yawthreshold	0	No	None
+joyadvancedupdate		No	None
+joystick	0	No	None
+jpeg		No	Takeajpegscreenshot:
+
+Arguments:<filename><quality1-100>
+jpeg_quality	90	No	Setsscreenshotquality
++jlook		No	None
+-jlook		No	None
++jump		No	Startplayerjumpupward(buttondown)
+-jump		No	Stopplayerjumpupward(buttonup)
+Commandsstartingwithletter"K"
+Command	Default	Cheat?	HelpText
+kdtree_test		No	Testsspatialpartitionforentitiesqueries
+key_findbinding		No	Findkeyboundtospecifiedcommandstring
+key_listboundkeys		No	Listboundkeyswithbindings
+key_updatelayout		No	Updatesgamekeyboardlayouttocurrentwindowskeyboardsetting
+kick		No	Kickaplayerbyslot,useridorname
+kill		No	Killstheplayer
+killserver		No	Shutdowntheserver
++klook		No	None
+-klook		No	None
+Commandsstartingwithletter"L"
+Command	Default	Cheat?	HelpText
+lastinv		No	Selectslastselectedweapon
++left		No	Startmovingplayerleft(buttondown)
+-left		No	Stopmovingplayerleft(buttonup)
+light_crosshair		No	Showtexturecoloratcrosshair
+linefile		No	Parsesmapleakdatafrom.linfile
+list		No	Listcachedservers
+listdemo		No	Listdemofilecontents
+listid		No	Listsbannedusers
+listip		No	ListIPaddressesonthebanlist
+listmodels		No	Listloadedmodels
+load		No	Loadasavedgame
+lod_TransitionDist	800	No	DistanceatwhichLODtakesplace
+log		No	Enablesstandardlogfile<0/1>
++lookdown		No	Startplayerlookdown(buttondown)
+-lookdown		No	Stopplayerlookdown(buttonup)
+lookspring	0	No	None
+lookstrafe	0	No	Strafeswiththemouse
++lookup		No	Startplayerlookup(buttondown)
+-lookup		No	Stopplayerlookup(buttonup)
+lservercfgfile	0	No	None
+Commandsstartingwithletter"M"
+Command	Default	Cheat?	HelpText
+m_customaccel	0		Custommouseacceleration(0disable,1toenable,2enablewithseparateyaw/pitchrescale).
+
+Formula:mousesensitivity=(rawmousedelta^m_customaccel_exponent)*m_customaccel_scale+sensitivity.Ifmodeis2,thenxandysensitivityarescaledbym_pitchandm_yawrespectively.
+m_customaccel_exponent	1		Mousemoveisraisedtothispowerbeforebeingscaledbyscalefactor.
+m_customaccel_max	0		Maxmousemovescalefactor,0fornolimit
+m_customaccel_scale	0		Custommouseaccelerationvalue.
+m_filter	0		Mousefiltering(setthisto1toaveragethemouseover2frames).
+m_forward	1		Mouseforwardfactor.
+m_mouseaccel1	0		Windowsmouseaccelerationinitialthreshold(2xmovement).
+m_mouseaccel2	0		Windowsmouseaccelerationsecondarythreshold(4xmovement).
+m_mousespeed	1		Windowsmousespeedfactor(range1to20).
+m_pitch	0		Mousepitchfactor.
+m_side	0		Mousesidefactor.
+m_yaw	0		Mouseyawfactor.
+map			Startplayingonspecifiedmap.
+map_background			Runsamapasthebackgroundtothemainmenu.
+map_edit			None
+map_noareas	0		Disableareatoareaconnectiontesting.
+mapcyclefile	mapcycle.txt		Setsthemapcyclefiletouseforcyclingmaps.
+maps			Displayslistofmaps.
+mat_antialias	0		None
+mat_bloom	1		None
+mat_bufferprimitives	1		None
+mat_bumpbasis	0		None
+mat_bumpmap	1		Togglesbumpmaprenderingon/off.
+mat_camerarendertargetoverlaysize	128	Yes	None
+mat_clipz	1		None
+mat_compressedtextures	1		Whensetto0theenginewilluseuncompressedtexturesforthecurrentmap.
+mat_configcurrent			Showthecurrentvideocontrolpanelconfigforthematerialsystem.
+mat_crosshair			Displaythenameofthematerial/textureunderthecrosshair.
+mat_debug			None
+mat_debugdepth	0		None
+mat_debugdepthmode	0		None
+mat_debugdepthval	128		None
+mat_debugdepthvalmax	256		None
+mat_depthbias_decal	-262144		None
+mat_depthbias_normal	0	Yes	None
+mat_diffuse	1	Yes	Whensetto0,showsspecularmaponmodelswith$envmaptintvalues.Usewithmat_fullbrighttoviewspecularonbrushes.
+mat_drawflat	0	Yes	None
+mat_drawwater	1	Yes	None
+mat_dxlevel	90		ChangeswhatGPUfeaturesareusedbasedondirectXversion.98isadirectX10emulationofdirectX9.
+mat_envmapsize	128		Adjuststheresolutionofenvironmentmapsthatareusedforreflectivesurfaces.
+mat_envmaptgasize	32		None
+mat_fastnobump	0		None
+mat_fastspecular	1		Enable/Disablespecularityforvisualtesting.Willnotreloadmaterialsandwillnotaffectperf.
+mat_fillrate	0	Yes	None
+mat_filterlightmaps	1		Smoothslightmaps.Lightingappearsblockywhenthisisoff.
+mat_filtertextures	1		Smoothstextures.Texturesappearblockywhenthisisoff.
+mat_forceaniso	1		SetsAnistropicFilteringLevel
+mat_forcedynamic	0	Yes	Forcestheuseofdynamiclightingwhereapplicable.
+mat_forcehardwaresync	1		None
+mat_frame_sync_enable	1	Yes	None
+mat_frame_sync_force_texture	0	Yes	Forceframesyncingtolockamanagedtexture.
+mat_framebuffercopyoverlaysize	128		None
+mat_fullbright	0	Yes	Whensetto1itturnsonself-illuminationforgeometry.
+mat_hsv	0		None
+mat_info			Showsmaterialsysteminfo
+mat_leafvis	0		Drawwireframeofcurrentleaf
+mat_levelflush	1		None
+mat_loadtextures	1		None
+mat_luxels	0	Yes	Turnsonluxelvisualization.
+mat_maxframelatency	1		None
+mat_measurefillrate	0	Yes	None
+mat_mipmaptextures	1		None
+mat_monitorgamma	2		Monitorgamma(typically2.2forCRTand1.7forLCD).
+mat_norendering	0		None
+mat_normalmaps	0	Yes	Turnsonnormalmapvisualization
+mat_normals	0	Yes	Turnsonsurfacenormalvisualization
+mat_parallaxmap	0		Enablestheuseofparallaxmaps
+mat_picmip	0		Setstexturequality.Isthesameasthe"TextureDetail"menu.Valuesare-1-VeryHigh(OrangeBoxonly),0-High,1-Medium,2-Low
+mat_proxy	0	Yes	None
+mat_reducefillrate	0		None
+mat_reloadallmaterials			None
+mat_reloadmaterial			None
+mat_reloadtextures			None
+mat_reversedepth	0	Yes	None
+mat_savechanges			Savescurrentvideoconfigurationtotheregistry.
+mat_setvideomode			Setsthewidth,height,windowedstateofthematerialsystem.
+mat_shadowstate	1		None
+mat_show_texture_memory_usage	0		DisplaythetexturememoryusageontheHUD.
+mat_showcamerarendertarget	0	Yes	None
+mat_showenvmapmask	0		None
+mat_showframebuffertexture	0	Yes	None
+mat_showlightmapcomponent	0		0:shownormal-mappedlightmap
+
+1:showcomponent11:showcomponent21:showcomponent3
+mat_showlightmappage	-1		None
+mat_showlowresimage	0		None
+mat_showmaterials			Showmaterials.
+mat_showmaterialsverbose			None
+mat_showmiplevels	0		None
+mat_showtextures			Showtextures.
+mat_showwatertextures	0	Yes	None
+mat_skybloomamount	1		None
+mat_slopescaledepthbias_decal	0	Yes	None
+mat_slopescaledepthbias_normal	0	Yes	None
+mat_softwarelighting	0		None
+mat_softwareskin	0		None
+mat_specular	1		Enable/Disablespecularityforperformancetesting.Willcauseamaterialreloaduponchange.
+mat_spewvertexandpixelshaders			Printallvertexandpixelshaderscurrentlyloadedtotheconsole.
+mat_stub	0	Yes	None
+mat_suppress			Suppressamaterialfromdrawing
+mat_surfaceid	0		None
+mat_surfacemat	0		None
+mat_texture_limit	-1		Ifthisvalueisnot-1,thematerialsystemwilllimittheamountoftexturememoryitusesinaframe.Usefulforidentifyingperformancecliffs.Thevalueisinkilobytes.
++mat_texture_list			None
+-mat_texture_list			None
+mat_texture_list	0		Fordebugging,showalistofusedtexturesperframe
+mat_texture_list_all	0		Ifthisisnonzero,thenthetexturelistpanelwillshowallcurrently-loadedtextures.
+mat_texturelist_directories	0		None
+mat_texturelist_files	1		None
+mat_trilinear	1		None
+mat_viewportscale	1	Yes	Debuggingviewportscale
+mat_vsync	0		Forcesynctoverticalretrace
+mat_wateroverlaysize	128		None
+mat_wireframe	0to3	Yes	SeeOptimizationCommands.
+mat_yuv	0		Turnsthescreenmonochrome
+maxplayers			Changethemaximumnumberofplayersallowedonthisserver.
+mem_dump			Dumpmemorystats.
+mem_dumpstats	0		Dumpcurrentandmaxheapusageinfotoconsoleatendofframe(setto2forcontinuousoutput)
+mem_force_flush	0		Forcecacheflushofunlockedresourcesoneveryalloc.
+metropolice_charge	1		None
+metropolice_chase_use_follow	0		None
+metropolice_move_and_melee	1		None
+minisave			Savesgame(forcurrentlevelonly!)
+mod_forcedata	1		Forcesallmodelfiledataintocacheonmodelload.
+monk_headshot_freq	2		None
+mortar_visualize	0		None
++movedown			None
+-movedown			None
++moveleft			None
+-moveleft			None
++moveright			None
+-moveright			None
++moveup			None
+-moveup			None
+mp_allowNPCs	1		None
+[mp_autokick]]	1		None
+mp_autoteambalance	1		None-NewSourceEngine
+mp_autoteambalance_delay	1		Timeaftertheteamsbecomeunbalancedtoattempttoswitchplayers.-NewSourceEngine
+mp_autoteambalance_warning_delay	1		Timeaftertheteamsbecomeunbalancedtoprintabalancewarning.-NewSourceEngine
+mp_allowspectators	1		Toggleswhethertheserverallowsspectatormodeornot.
+mp_autocrosshair	1		None
+mp_bonusroundtime	1		Timeafterroundwinuntilroundrestarts-NewSourceEngine
+mp_buytime	1.5		Timeplayershavetobuyweapons
+mp_chattime	10		Amountoftimeplayerscanchatafterthegameisover.
+mp_decals	200		None
+mp_defaultteam	0		None
+mp_enableroundwaittime	1		Enabletimerstowaitbetweenrounds.-NewSourceEngine
+mp_facefronttime	3		Afterthisamountoftimeofstandinginplacebutaimingtooneside,goaheadandmovefeettofaceupperbody.
+mp_falldamage	0		None
+mp_feetyawrate	720		Howmanydegreespersecondthatwecanturnourfeetorupperbody.
+mp_flashlight	0		None
+mp_footsteps	1		None
+mp_forcecamera	0		Restrictsspectatormodesfordeadplayers.
+mp_forcerespawn	1		None
+mp_fraglimit	0		None
+mp_freezetime	5		None
+mp_friendlyfire	0		None
+mp_ik	1		UseIKonin-placeturns.
+mp_logecho	1		None
+mp_logfile	1		None
+mp_maxrounds	1		Maxnumberofroundstoplaybeforeserverchangesmaps-NewSourceEngine.
+mp_respawntime	10		Setsthetimebeforerespawn-NewSourceEngine.
+mp_restartround	1		Ifnon-zero,thecurrentroundwillrestartinthespecifiednumberofseconds-NewSourceEngine.
+mp_roundtime	4		None
+mp_stalemate_timelimit	1		Timelimit(inseconds)ofthestalemateround.-NewSourceEngine.
+mp_teamlist	0		None
+mp_teamoverride	1		None
+mp_teamplay	0		None
+mp_teams_unbalance_limit	1		Teamsareunbalancedwhenoneteamhasthismanymoreplayersthantheotherteam.(0disablescheck)-NewSourceEngine.
+mp_timelimit	0		Gametimepermapinminutes.
+mp_weaponstay	0		None
+mp_winlimit	0		Maxnumberofroundsoneteamcanwinbeforeserverchangesmaps-NewSourceEngine.
+mp3			(Counter-Strike:Sourceonly)StartstheValveMP3Player.
+muzzleflash_light	1		None
+Commandsstartingwithletter"N"
+Command	Default	Cheat?	HelpText
+name	0		Currentusername.
+nav_begin_area			DefinesacornerofanewArea.TocompletetheArea,dragtheoppositecornertothedesiredlocationandissuea'nav_end_area'command.
+nav_clear_walkable_marks			Eraseanypreviouslyplacedwalkablepositions.
+nav_connect			ToconnecttwoAreas,markthefirstArea,highlightthesecondArea,theninvoketheconnectcommand.NotethatthiscreatesaONE-WAYconnectionfromthefirsttothesecondArea.Tomakeatwo-wayconnection,alsoconnectthesecondareatothefirst.
+nav_corner_lower			LowertheselectedcornerofthecurrentlymarkedArea.
+nav_corner_raise			RaisetheselectedcornerofthecurrentlymarkedArea.
+nav_corner_select			SelectacornerofthecurrentlymarkedArea.Usemultipletimestoaccessallfourcorners.
+nav_crouch			Togglesthe'mustcrouchinthisarea'flagusedbytheAIsystem.
+nav_delete			DeletesthecurrentlyhighlightedArea.
+nav_disconnect			TodisconnecttwoAreas,markanArea,highlightasecondArea,theninvokethedisconnectcommand.ThiswillremoveallconnectionsbetweenthetwoAreas.
+nav_edit	0		SettoonetointeractivelyedittheNavigationMesh.Settozerotoleaveeditmode.
+nav_end_area			DefinesthesecondcornerofanewAreaandcreatesit.
+nav_generate			GenerateaNavigationMeshforthecurrentmapandsaveittodisk.
+nav_jump			Togglesthe'traversethisareabyjumping'flagusedbytheAIsystem.
+nav_load			LoadstheNavigationMeshforthecurrentmap.
+nav_mark			MarkstheAreaunderthecursorformanipulationbysubsequenteditingcommands.
+nav_mark_unnamed			MarkanAreawithnoPlacename.UsefulforfindingstrayareasmissedwhenPlacePainting.
+nav_mark_walkable			Markthecurrentlocationasawalkableposition.ThesepositionsareusedasseedlocationswhensamplingthemaptogenerateaNavigationMesh.
+nav_merge			TomergetwoAreasintoone,markthefirstArea,highlightthesecondbypointingyourcursoratit,andinvokethemergecommand.
+nav_no_jump			Togglesthe'don'tjumpinthisarea'flagusedbytheAIsystem.
+nav_place_floodfill			SetsthePlaceoftheAreaunderthecursortothecurrentPlace,and'flood-fills'thePlacetoalladjacentAreas.Flood-fillingstopswhenithitsanAreawiththesamePlace,oradifferentPlacethanthatoftheinitialArea.
+nav_place_pick			SetsthecurrentPlacetothePlaceoftheAreaunderthecursor.
+nav_precise			Togglesthe'don'tavoidobstacles'flagusedbytheAIsystem.
+nav_quicksave	1		Settoonetoskipthetimeconsumingphasesoftheanalysis.Usefulfordatacollectionandtesting.
+nav_save			SavesthecurrentNavigationMeshtodisk.
+nav_show_approach_points	0		ShowApproachPointsintheNavigationMesh.
+nav_show_danger	0		Showcurrent'danger'levels.
+nav_splice			Tosplice,markanarea,highlightasecondarea,theninvokethesplicecommandtocreateanew,connectedareabetweenthem.
+nav_split			TosplitanAreaintotwo,alignthesplitlineusingyourcursorandinvokethesplitcommand.
+nav_strip			StripsallHidingSpots,ApproachPoints,andEncounterSpotsfromthecurrentArea.
+nav_toggle_place_mode			ToggletheeditorintoandoutofPlacemode.PlacemodeallowslabellingofAreawithPlacenames.
+nav_toggle_place_painting			TogglesPlacePaintingmode.WhenPlacePainting,pointingatanAreawill'paint'itwiththecurrentPlace.
+nav_use_place			Ifusedwithoutarguments,allavailablePlaceswillbelisted.IfaPlaceargumentisgiven,thecurrentPlaceisset.
+net_blockmsg	0	Yes	1|name>
+net_channels			Showsnetchannelinfo.
+net_chokeloop	0		Applybandwidthchoketoloopbackpackets.
+net_drawslider	0		Drawcompletionsliderduringsignon.
+net_droppackets	0	Yes	Dropsnextnpacketsonclient.
+net_fakelag	0	Yes	Lagallincomingnetworkdata(includingloopback)bythismanymilliseconds.
+net_fakeloss	0	Yes	Simulatepacketlossasapercentage(negativemeansdrop1/npackets).
+net_graph	0		Drawthenetworkusagegraph.
+net_graphheight	64		None
+net_graphpos	1		None
+net_graphsolid	1		None
+net_maxfilesize	16		Maxfilesizeservercantransfertoclients.
+net_maxfragments	1280		Maxfragmentbytesperpacket.
+net_port_try	0		Preventserversfromtryingtoclimbportsiftherequestportwasbusy.
+net_scale	5		None
+net_showdrop	0		Showdroppedpacketsinconsole
+net_showevents	0		Printgameeventinfostoconsole.
+net_showfragments	0		Shownetchannelfragments.
+net_showmsg	0		1|name>
+net_showpeaks	0		Showmessagesforlargepacketsonly:<size>
+net_showsplits	0		Showinfoaboutpacketsplits.
+net_showtcp	0		DumpTCPstreamsummarytoconsole.
+net_showudp	0		DumpUPDpacketssummarytoconsole
+net_start			Initializesmultiplayernetworksockets.
+net_synctags	0	Yes	Inserttokensintothenetstreamtofindclient/servermismatches.
+next	0	Yes	Setto1toadvancetonextframe(whensinglestep==1)
+nextdemo			Playnextdemoinsequence.
+noclip		Yes	Toggle.Playerbecomesnon-solidandflies.Usefulfordevelopersandplayersthathavegottenphysicallystuck.
+notarget			Toggle.PlayerbecomeshiddentoNPCs.
+npc_ammo_deplete			Subtractshalfofthetarget'sammo.
+npc_barnacle_swallow	0		Useprototypeswallowcode.
+npc_bipass			DisplaysthelocalmovementattemptsbythegivenNPC(s)(triangulationdetours).Failedbypassroutesaredisplayedinred,successfulbypassesareshowningreen.
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat.
+
+npc_citizen_auto_player_squad	1		None
+npc_citizen_auto_player_squad_allow_use	0		None
+npc_citizen_explosive_resist	0		None
+npc_citizen_insignia	0		None
+npc_citizen_squad_marker	0		None
+npc_combat			DisplaystextdebugginginformationaboutthesquadandenemyoftheselectedNPC(SeeOverlayText)
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat.
+
+npc_conditions			DisplaysallthecurrentAIconditionsthatanNPChasintheoverlaytext.
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat.
+
+npc_create			CreatesanNPCofthegiventypewheretheplayerislooking(ifthegivenNPCcanactuallystandatthatlocation).Notethatthisonlyworksfornpcclassesthatarealreadyintheworld.Youcannotcreateanentitythatdoesn'thaveaninstanceinthelevel.
+
+Arguments
+{npc_class_name}.
+
+npc_create_aimed			CreatesanNPCaimedawayfromtheplayerofthegiventypewheretheplayerislooking(ifthegivenNPCcanactuallystandatthatlocation).Notethatthisonlyworksfornpcclassesthatarealreadyintheworld.Youcannotcreateanentitythatdoesn'thaveaninstanceinthelevel.
+
+Arguments
+{npc_class_name}.
+
+npc_create_equipment	0		None
+npc_destroy			RemovesthegivenNPC(s)fromtheuniverse
+
+Arguments
+{entity_name}/{class_name}/noargumentpickswhatplayerislookingat.
+
+npc_destroy_unselected			RemovesallNPCsfromtheuniversethataren'tcurrentlyselected.
+npc_enemies			ShowsmemoryofNPC.DrawsanXontopofeachmemory.
+
+Blue
+Eludedentities(don'tknowwhereitwent)
+Green
+Unreachableentities(can'tgettoit)
+Red
+Currentenemy
+Magenta
+Currenttargetentity
+Pink
+Allotherentitiesdrawn
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_focus			DisplaysredlinetoNPC'senemy(ifhasone)andbluelinetoNPC'stargetentity(ifhasone)
+
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_freeze			SelectedNPC(s)willfreezeinplace(orunfreeze).IftherearenoselectedNPCs,usestheNPCunderthecrosshair.
+npc_go			SelectedNPC(s)willgotothelocationthattheplayerislooking(shownwithapurplebox).
+npc_go_do_run	1		SetwhethershouldrunonNPCgo.
+npc_go_random			SendsallselectedNPC(s)toarandomnode.
+npc_heal			Healsthetargetbacktofullhealth.
+npc_height_adjust	1		Enabletestmodeforikheightadjustment.
+npc_kill			KillsthegivenNPC(s)
+
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_nearest			Draw'sawhileboxaroundtheNPC(s)nearestnode
+
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_reset			ReloadsschedulesforallNPC'sfromtheirscriptfiles.
+npc_route			DisplaysthecurrentrouteofthegivenNPCasalineonthescreen.Waypointsalongtheroutearedrawnassmallcyanrectangles.Lineiscolorcodedinthefollowingmanner:
+
+Blue
+Pathtoanode
+Cyan
+Detouraroundanobject(triangulation)
+Red
+Jump
+Maroon
+Pathtofinaltargetposition
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_select			SelectsordeselectsthegivenNPC(s)forlatermanipulation.SelectedNPC'sareshownsurroundedbyaredtranslucentbox
+
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat
+
+npc_sentences	0		None
+npc_speakall			Forcethenpctotryandspeakalltheirresponses.
+npc_squads			Obsolete.Replacedbynpc_combat.
+npc_steering			DisplaysthesteeringobstructionsoftheNPC(usedtoperformlocalavoidance)
+
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_steering_all			DisplaysthesteeringobstructionsofallNPCs(usedtoperformlocalavoidance).
+npc_strider_height_adj	0		None
+npc_strider_shake_ropes_magnitude	150		None
+npc_strider_shake_ropes_radius	1200		None
+npc_task_text			Outputstextdebugginginformationtotheconsoleabouttheallthetasks+breakconditionsoftheselectedNPCcurrentschedule
+
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_tasks			DisplaysdetailedtextdebugginginformationabouttheallthetasksoftheselectedNPCcurrentschedule(SeeOverlayText)
+
+Arguments
+{npc_name}/{npcclass_name}/noargumentpickswhatplayerislookingat.
+
+npc_thinknow			TriggerNPCtothink.
+npc_viewcone			DisplaystheviewconeofNPCs.(Wheretheyarecurrentlylookingandwhattheextentsoftheirvisionis.)
+
+Arguments
+{npc_name}/{npcclass_name}/Noargumentpickswhatplayerislookingat.
+
+npc_vphysics	0		None
+Commandsstartingwithletter"O"
+Command	Default	Cheat?	HelpText
+old_radiusdamage	0		None
+overview_health	1		Showplayer'shealthinmapoverview.
+overview_locked	1		Locksmapangle,doesn'tfollowviewangle.
+overview_mode			1|2>
+overview_names	1		Showplayer'snamesinmapoverview.
+overview_tracks	1		Showplayer'stracksinmapoverview.
+overview_zoomabs			Setsoverviewmapzoom:<zoom>
+overview_zoomrel			Changesoverviewmapzoom:<factor>
+Commandsstartingwithletter"P"
+Command	Default	Cheat?	HelpText
+particle_simulateoverflow	0	Yes	Usedforstress-testingparticlesystems.Randomlydeniescreationofparticles.
+password	0		Currentserveraccesspassword
+path			Showtheenginefilesystempath.
+pause			Toggletheserverpausestate.
+perfui			Show/hidethelevelperformancetoolsUI.
+perfvisualbenchmark			None
+perfvisualbenchmark_abort			None
+phonemedelay	0		Phonemedelaytoaccountforsoundsystemlatency.
+phonemefilter	0		Timedurationofboxfiltertopassoverphonemes.
+phonemesnap	1		Don'tforcevisemestoalwaysconsidertwophonemes,regardlessofduration.
+phys_impactforcescale	1		None
+phys_penetration_error_time	10		Controlsthedurationofvphysicspenetrationerrorboxes.
+phys_pushscale	1		None
+phys_speeds	0		None
+phys_stressbodyweights	5		None
+phys_swap			Automaticallyswapsthecurrentweaponforthephyscannonandbackagain.
+phys_timescale	1		Scaletimeforphysics
+phys_upimpactforcescale	0		None
+physcannon_ball_cone	0		None
+physcannon_chargetime	2		None
+physcannon_cone	0		None
+physcannon_maxforce	1500		None
+physcannon_maxmass	250		None
+physcannon_mega_pullforce	8000		None
+physcannon_mega_tracelength	850		None
+physcannon_minforce	700		None
+physcannon_pullforce	4000		None
+physcannon_tracelength	250		None
+physics_budget			Timesthecostofeachactiveobject
+physics_debug_entity			Dumpsdebuginfoforanentity
+physics_highlight_active			Turnsontheabsboxforallactivephysicsobjects
+physics_report_active			Listsallactivephysicsobjects
+physics_select			Dumpsdebuginfoforanentity
+physicsshadowupdate_render	0		None
+picker			Toggles'picker'mode.Whenpickerison,theboundingbox,pivotanddebuggingtextisdisplayedforwhateverentitytheplayerislookingat.
+
+Arguments
+Full-enablesalldebuginformation
+
+ping			Displaypingtoserver.
+pistol_use_new_accuracy	1		None
+pixelvis_debug			Dumpdebuginfo
+play			Playasound.
+playdemo			Playarecordeddemofile(.dem).
+player_old_armor	0		None
+player_showpredictedposition	0		None
+player_showpredictedposition_timestep	1		None
+player_squad_autosummon_debug	0		None
+player_squad_autosummon_move_tolerance	20		None
+player_squad_autosummon_player_tolerance	10		None
+player_squad_autosummon_time	5		None
+player_squad_autosummon_time_after_combat	8		None
+player_squad_double_tap_time	0		None
+player_squad_transient_commands	1		None
+player_throwforce	1000		None
+playflush			Playasound,reloadingfromdiskincaseofchanges.
+playgamesound			Playasoundfromthegamesoundstxtfile
+playsoundscape			Forcesasoundscapetoplay
+playvol			Playasoundataspecifiedvolume.
+plugin_load			Loadsapluginpresentintheaddonsdirectory.
+plugin_print			Printsloadedplugins(server).
+plugin_unload			Unloadsapluginbasedonit'sIDinplugin_print.
+progress_enable			None
+prop_crosshair			Showsnameforproplookingat
+prop_debug			Togglepropdebugmode.Ifon,propswillshowcolorcodedboundingboxes.Redmeansignorealldamage.Whitemeansrespondphysicallytodamagebutneverbreak.Greenmapshealthintherangeof100downto1.
+props_break_max_pieces	-1		None
+pwatchent	-1	Yes	Entitytowatchforpredictionsystemchanges.
+pwatchvar	0	Yes	Entityvariabletowatchinpredictionsystemforchanges.
+Commandsstartingwithletter"Q"
+Command	Default	Cheat?	HelpText
+quit			Exittheengine.
+quti			Exittheengine.
+Commandsstartingwithletter"R"
+Command	Default	Cheat?	HelpText
+r_3dnow	1		hl2:tomakeengineusesamd3dnowregisters
+r_3dsky	1	Yes	Enabletherenderingof3dskyboxes
+r_AirboatPitchCurveLinear	60	Yes	None
+r_AirboatPitchCurveZero	25	Yes	None
+r_AirboatRollCurveLinear	120	Yes	None
+r_AirboatRollCurveZero	90	Yes	None
+r_AirboatViewBlendTo	1	Yes	None
+r_AirboatViewBlendToScale	0	Yes	None
+r_AirboatViewBlendToTime	1	Yes	None
+r_AirboatViewDampenDamp	1	Yes	None
+r_AirboatViewDampenFreq	7	Yes	None
+r_AirboatViewZHeight	0	Yes	None
+r_ambientlightingonly	0	Yes	Setthisto1tolightmodelswithonlyambientlighting(andnostaticlighting).
+r_aspectratio	0	Yes	None
+r_avglight	1		None
+r_avglightmap	0		None
+r_cheapwaterend			None
+r_cheapwaterstart			None
+r_cleardecals			Usager_cleardecals<permanent>.
+r_ClipAreaPortals	1	Yes	None
+r_colorstaticprops	0	Yes	None
+r_debugcheapwater	0	Yes	None
+r_debugrandomstaticlighting	0	Yes	Setto1tomakeallstaticlightingredfordebugging.Mustrestartforchangetotakeaffect.
+r_decal_cullsize	5		Decalsunderthissizeinpixelsareculled
+r_decals	2048		None
+r_decalstaticprops	1		Decalstaticpropstest
+r_DispBuildable	0	Yes	None
+r_DispDrawAxes	0		None
+r_DispEnableLOD	0		None
+r_DispFullRadius	400		RadiuswithinwhichadisplacementwillstayatitshighestLOD
+r_DispLockLOD	0		None
+r_DispRadius	500		None
+r_DispSetLOD	0		None
+r_DispTolerance	5		None
+r_DispUpdateAll	0		None
+r_DispUseStaticMeshes	1	Yes	Highendmachinesusestaticmeshes.Lowendmachinesusetempmeshes.
+r_DispWalkable	0	Yes	None
+r_DoCovertTransitions	0		None
+r_dopixelvisibility	1		None
+r_drawbatchdecals	1		Renderdecalsbatched.
+r_DrawBeams	1	Yes	None
+r_drawbrushmodels	1	Yes	Renderbrushmodels.
+r_drawclipbrushes	0	Yes	Drawclipbrushes
+r_drawdecals	1	Yes	Renderdecals.
+r_drawdetailprops	1		None
+r_DrawDisp	1	Yes	Togglesrenderingofdisplacmentmaps
+r_drawentities	1	Yes	None
+r_drawflecks	1		None
+r_drawfullskybox	1	Yes	None
+r_drawleaf	-1	Yes	Drawthespecifiedleaf.
+r_drawlightcache	0	Yes	0:off
+
+1:drawlightcacheentries2:drawrays
+r_drawlightinfo	0	Yes	None
+r_drawlights	0	Yes	None
+r_drawmodeldecals	1		None
+r_DrawModelLightOrigin	0	Yes	None
+r_drawmodelstatsoverlay	0	Yes	None
+r_drawmodelstatsoverlaydistance	500	Yes	None
+r_drawmodelstatsoverlaymax	1		timeinmillisecondsbeyondwhichamodeloverlayisfullyredinr_drawmodelstatsoverlay2
+r_drawmodelstatsoverlaymin	0		timeinmillisecondsthatamodelmusttaketorenderbeforeshowinganoverlayinr_drawmodelstatsoverlay2
+r_drawopaquerenderables	1	Yes	None
+r_drawopaqueworld	1	Yes	None
+r_drawothermodels	1	Yes	None
+r_drawparticles	1	Yes	Enable/disableparticlerendering
+r_drawpixelvisibility	0		Showtheocclusionproxies
+r_DrawPortals	0	Yes	None
+r_DrawRain	1	Yes	Enable/disablerainrendering.
+r_drawrenderboxes	0	Yes	None
+r_drawropes	1	Yes	None
+r_drawskybox	1	Yes	None
+r_DrawSpecificStaticProp	-1		None
+r_drawsprites	1	Yes	None
+r_drawstaticprops	1	Yes	None
+r_drawtranslucentrenderables	1	Yes	None
+r_drawtranslucentworld	1	Yes	None
+r_drawvgui	1	Yes	Enabletherenderingofvguipanels
+r_drawviewmodel	1	Yes	None
+r_drawworld	1	Yes	Rendertheworld.
+r_dynamic	1		None
+r_eyeglintlodpixels	20		Thenumberofpixelswideaneyeballhastobebeforerenderinganeyeglint.Isafloatingpointvalue.
+r_eyegloss	1		None
+r_eyemove	1		None
+r_eyes	1		None
+r_eyeshift_x	0		None
+r_eyeshift_y	0		None
+r_eyeshift_z	0		None
+r_eyesize	0		None
+r_eyewaterepsilon	7	Yes	None
+r_farz	-1	Yes	Overridethefarclippingplane.-1meanstousethevalueinenv_fog_controller.
+r_fastzreject	0		Activate/deactivatesafastz-settingalgorithmtotakeadvantageofhardwarewithfastzreject.Use-1todefaulttohardwaresettings
+r_flashlightconstant	0	Yes	None
+r_flashlightdrawfrustum	0		None
+r_flashlightdrawfrustumbbox	0		None
+r_flashlightdrawsweptbbox	0		None
+r_flashlightfar	750	Yes	None
+r_flashlightfov	45	Yes	None
+r_flashlightlinear	100	Yes	None
+r_flashlightlockposition	0	Yes	None
+r_flashlightmodels	1		None
+r_flashlightnear	1	Yes	None
+r_flashlightnodraw	0		None
+r_flashlightoffsetx	10	Yes	None
+r_flashlightoffsety	-20	Yes	None
+r_flashlightoffsetz	24	Yes	None
+r_flashlightquadratic	0	Yes	None
+r_flashlightvisualizetrace	0	Yes	None
+r_flex	1		None
+r_flushlod			FlushandreloadLODs.
+r_ForceRestore	0		None
+r_ForceWaterLeaf	1		Enableforoptimizationtowater-considersviewinleafunderwaterforpurposesofculling
+r_frustumcullworld	1		None
+r_JeepFOV	90	Yes	None
+r_JeepViewBlendTo	1	Yes	None
+r_JeepViewBlendToScale	0	Yes	None
+r_JeepViewBlendToTime	1	Yes	None
+r_JeepViewDampenDamp	1	Yes	None
+r_JeepViewDampenFreq	7	Yes	None
+r_JeepViewZHeight	10	Yes	None
+r_lightaverage	1		Activates/deactivatelightaveraging
+r_lightcache_numambientsamples	162		numberofrandomdirectionstofirerayswhencomputingambientlighting
+r_lightcachecenter	1	Yes	None
+r_lightinterp	5		Controlsthespeedoflightinterpolation,0turnsoffinterpolation
+r_lightmap	-1		None
+r_lightstyle	-1		None
+r_lockpvs	0	Yes	LockthePVSsoyoucanflyaroundandinspectwhatisbeingdrawn.
+r_lod	-1		None
+r_lod_noupdate	0		None
+r_mapextents	16384	Yes	Setthemaxdimensionforthemap.Thisdeterminesthefarclippingplane
+r_maxdlights	32		None
+r_maxmodeldecal	50		None
+r_maxnewsamples	6		None
+r_maxsampledist	128		None
+r_minnewsamples	3		None
+r_mmx	1		hl1andhl2:tomakeenginesusemmxregisters
+r_modellodscale	1		1.0isthedefault,settoalowervalue(ie0.5)totendtowardssimplermodels
+r_modelwireframedecal	0	Yes	None
+r_newflashlight	1	Yes	None
+r_newproplighting	0		None
+r_nohw	0	Yes	None
+r_norefresh	0		None
+r_nosw	0	Yes	None
+r_novis	0	Yes	TurnoffthePVS.
+r_occludeemaxarea	0		PreventsocclusiontestingforentitiesthattakeupmorethanX%ofthescreen.0meansusewhateverthelevelsaidtouse.
+r_occluderminarea	0		PreventsthisoccluderfrombeingusedifittakesuplessthanX%ofthescreen.0meansusewhateverthelevelsaidtouse.
+r_occludermincount	0		Atleastthismanyoccluderswillbeused,nomatterhowbigtheyare.
+r_occlusion	1		Activate/deactivatetheocclusionsystem.
+r_occlusionspew	0		Activate/deactivatesspewaboutwhattheocclusionsystemisdoing.
+r_overlaywireframe	0		None
+r_PhysPropStaticLighting	1		None
+r_pixelvis_partial	1		None
+r_portalscloseall	0		None
+r_portalsopenall	0		None
+r_PortalTestEnts	1	Yes	Clipentitiesagainstportalfrustums.
+r_printdecalinfo			None
+r_propsmaxdist	1200		Maximumvisibledistance
+r_radiosity	4		
+
+0
+Noradiosity
+1
+Radiositywithambientcube(6samples)
+2
+Radiositywith162samples
+3
+162samplesforstaticprops,6samplesforeverythingelse
+
+r_rainalpha	0		None
+r_rainalphapow	0		None
+r_raindensity	0		None
+r_RainHack	0		None
+r_rainlength	0		None
+r_RainProfile	0		Enable/disablerainprofiling.
+r_RainRadius	1500		None
+r_RainSideVel	130		Howmuchsidewaysvelocityraingets.
+r_RainSimulate	1		Enable/disablerainsimulation.
+r_rainspeed	600		None
+r_RainSplashPercentage	20		None
+r_rainwidth	0		None
+r_renderoverlayfragment	1		None
+r_rootlod	0		RootLOD
+r_ropebatch	1		None
+r_ropetranslucent	1		None
+r_screenfademaxsize	0		Maximumpropvisibledistance
+r_screenfademinsize	0		Minimumpropvisibledistance
+r_screenoverlay			None
+r_sequence_debug	0		None
+r_shadowangles			Setshadowangles
+r_shadowblobbycutoff			someshadowstuff
+r_shadowcolor			Setshadowcolor
+r_shadowdir			Setshadowdirection
+r_shadowdist			Setshadowdistance
+r_shadowids	0		None
+r_shadowlod	-1		None
+r_shadowlodbias	2		None
+r_shadowmaxrendered	32		None
+r_shadowrendertotexture	1		Determinesshadowquality-isthesameasthe"ShadowDetail"optioninthemenu
+r_shadows	1		Determineswhethershadowsaredrawn
+r_shadowwireframe	0	Yes	If1,seemstorenderdynamicshadowsinpinkwireframe.
+r_showenvcubemap	0	Yes	None
+r_skin	0		None
+r_skybox	1	Yes	Enabletherenderingofskyboxes
+r_snapportal	-1		None
+r_spewleaf	0		None
+r_sse	1		hl2:tomakeengineusessseregisters
+r_sse2	1		hl2:tomakeengineusessseregisters
+r_staticpropinfo	0		None
+r_teeth	1		None
+r_TransitionSensitivity	6		ControlswhenLODsarechanged.LowernumberscausemoreovertLODtransitions.
+r_updaterefracttexture	1		None
+r_vehicleBrakeRate	1	Yes	None
+r_vehicleDrawDebug	0	Yes	None
+r_VehicleViewClamp	1	Yes	None
+r_VehicleViewDampen	1	Yes	None
+r_visocclusion	0		Activate/deactivatewireframerenderingofwhattheocclusionsystemisdoing.
+r_visualizelighttraces	0	Yes	None
+r_visualizelighttracesshowfulltrace	0	Yes	None
+r_visualizeproplightcaching	0		None
+r_visualizetraces	0	Yes	None
+r_WaterDrawReflection	1		Enablewaterreflection
+r_WaterDrawRefraction	1		Enablewaterrefraction
+r_waterforceexpensive	1		None
+r_waterforcereflectentities	0		None
+r_worldlightmin	0		None
+r_worldlights	2		numberofworldlightstousepervertex
+rate	12000		Maxbytes/secthehostcanreceivedata
+rcon			Issueanrconcommand.
+rcon_address	0		Addressofremoteserverifsendingunconnectedrconcommands(formatx.x.x.x:p)
+rcon_password	0		remoteconsolepassword.
+recompute_speed			Recomputesclockspeed(fordebuggingpurposes).
+record			Recordademo.
++reload			None
+-reload			None
+reload			Reloadthemostrecentsavedgame(addsetpostojumptocurrentviewpositiononreload).
+removeid			RemoveauserIDfromthebanlist.
+removeip			RemoveanIPaddressfromthebanlist.
+replaydelay	0		None
+report_entities			Listsallentities
+report_simthinklist			Listsallsimulating/thinkingentities
+report_soundpatch			reportssoundpatchcount
+report_soundpatch			reportssoundpatchcount
+report_touchlinks			Listsalltouchlinks
+respawn_entities		Yes	Respawnsallentitiesonthemap.Isonlyusableonsingleplayergames.
+restart			Restartthegameonthesamelevel(addsetpostojumptocurrentviewpositiononrestart).
+retry			Retryconnectiontolastserver.
+revert			Revertconvarstotheirdefaultvalues.
++right			Startmovingplayerright(buttondown)
+-right			Stopmovingplayerright(buttonup)
+room_type	0		None
+rope_averagelight	1		Makesropesuseaverageofcubemaplightinginsteadofmaxintensity.
+rope_collide	1		Collideropewiththeworld
+rope_drawlines	0		None
+rope_shake	0		None
+rope_smooth	1		Doanantialiasingeffectonropes
+rope_smooth_enlarge	1		Howmuchtoenlargeropesinscreenspaceforantialiasingeffect
+rope_smooth_maxalpha	0		Alphaforropeantialiasingeffect
+rope_smooth_maxalphawidth	1		None
+rope_smooth_minalpha	0		Alphaforropeantialiasingeffect
+rope_smooth_minwidth	0		Whenusingsmoothing,thisistheminscreenspacewidthitletsaropeshrinkto
+rope_subdiv	2		Ropesubdivisionamount
+rope_wind_dist	1000		Don'tuseCPUapplyingsmallwindguststoropeswhenthey'repastthisdistance.
+Commandsstartingwithletter"S"
+Command	Default	Cheat?	HelpText
+save			Savescurrentgame.
+say			Displayplayermessage.(Screenshotexample)
+say_team			Displayplayermessagetoteam
+scene_allowoverrides	1		Whenplayingbackachoreographedscene,allowper-modelexpressionoverrides.
+scene_flatturn	1		None
+scene_flush			Flushall.vcdsfromthecacheandreloadfromdisk.
+scene_forcecombined	0		Whenplayingback,forceuseofcombined.wavfileseveninenglish.
+scene_maxcaptionradius	1200		Onlyshowclosedcaptionsifrecipientiswithinthismanyunitsofspeakingactor(0==disabled).
+scene_print	0		Whenplayingbackascene,printtimingandeventinfotoconsole.
+scene_showfaceto	0		Whenplayingback,showthedirectionsoffacetoevents.
+scene_showlook	0		Whenplayingback,showthedirectionsoflookevents.
+scene_showmoveto	0		Whenmoving,showtheendlocation.
++score			Showscoresep2engine
+-score			Showscoresep2engine
++scores			Showscoresclassic
+-scores			Showscoresclassic
+scr_centertime	2		None
+screenshot			Takeascreenshot.
+sensitivity	3		Mousesensitivity.
+servercfgfile	0		None
+setang			Snapplayereyestospecifiedpitchyaw<roll:optional>(musthavesv_cheats).
+setmaster			None
+setmodel			Changes'splayer'smodel
+setpause			Setthepausestateoftheserver.
+setpos			Moveplayertospecifiedorigin(musthavesv_cheats).
+shake			Shakethescreen.
+shake_show	0		Displaysalistoftheactivescreenshakes.
+shake_stop			Stopsallactivescreenshakes.
++showbudget			None
+-showbudget			None
++showbudget_texture			None
+-showbudget_texture			None
+showbudget_texture	0		Enablethetexturebudgetpanel.
++showbudget_texture_global			None
+-showbudget_texture_global			None
+showhitlocation	0		None
+showinfo			Showsainfopanel:<type><title><message>[<command>]
+showpanel			Showsaviewportpanel<name>
+showparticlecounts	0		Displaynumberofparticlesdrawnperframe
++showscores			Showscores,anyGS/Source
+-showscores			Showscores,anyGS/Source
+showsniperdist	0		None
+showsniperlines	0		None
+showtriggers	0	Yes	Showstriggerbrushes
+showtriggers_toggle			Toggleshowtriggers
++showvprof			None
+-showvprof			None
+singlestep	0	Yes	Runengineinsinglestepmode(setnextto1toadvanceaframe)
+sk_airboat_drain_rate	10		None
+sk_airboat_max_ammo	100		None
+sk_airboat_recharge_rate	15		None
+sk_allow_autoaim	1		None
+sk_ally_regen_time	0		Timetakenforanallytoregenerateapointofhealth.
+sk_ammo_qty_scale1	1		None
+sk_ammo_qty_scale2	1		None
+sk_ammo_qty_scale3	0		None
+sk_antlion_health	30		None
+sk_antlion_jump_damage	5		None
+sk_antlion_swipe_damage	5		None
+sk_antlionguard_dmg_charge	20		None
+sk_antlionguard_dmg_shove	10		None
+sk_antlionguard_health	500		None
+sk_apc_health	750		None
+sk_apc_missile_damage	15		None
+sk_auto_reload_time	3		None
+sk_autoaim_scale1	1		None
+sk_autoaim_scale2	0		None
+sk_barnacle_health	35		Barnaclespawnhealth.
+sk_barney_health	35		None
+sk_battery	15		None
+sk_bullseye_health	35		None
+sk_citizen_giveammo_player_delay	10		None
+sk_citizen_heal_ally	30		None
+sk_citizen_heal_ally_delay	20		None
+sk_citizen_heal_ally_min_pct	0		None
+sk_citizen_heal_player	25		None
+sk_citizen_heal_player_delay	25		None
+sk_citizen_heal_player_min_forced	10		None
+sk_citizen_heal_player_min_pct	0		None
+sk_citizen_health	40		None
+sk_citizen_player_stare_dist	72		None
+sk_citizen_player_stare_time	1		None
+sk_citizen_stare_heal_time	5		None
+sk_combine_ball_search_radius	512		None
+sk_combine_guard_health	70		None
+sk_combine_guard_kick	15		None
+sk_combine_s_health	50		None
+sk_combine_s_kick	10		None
+sk_combineball_guidefactor	1		None
+sk_combineball_seek_angle	15		None
+sk_combineball_seek_kill	0		None
+sk_crow_health	1		None
+sk_crow_melee_dmg	0		None
+sk_crowbar_lead_time	0		None
+sk_dmg_homer_grenade	20		None
+sk_dmg_inflict_scale1	1		None
+sk_dmg_inflict_scale2	1		None
+sk_dmg_inflict_scale3	0		None
+sk_dmg_pathfollower_grenade	0		None
+sk_dmg_sniper_penetrate_npc	0		None
+sk_dmg_sniper_penetrate_plr	0		None
+sk_dmg_take_scale1	0		None
+sk_dmg_take_scale2	1		None
+sk_dmg_take_scale3	1		None
+sk_dropship_container_health	750		None
+sk_dynamic_resupply_modifier	1		None
+sk_env_headcrabcanister_shake_amplitude	50		None
+sk_env_headcrabcanister_shake_radius	1024		None
+sk_env_headcrabcanister_shake_radius_vehicle	2500		None
+sk_fraggrenade_radius	250		None
+sk_gunship_burst_dist	768		None
+sk_gunship_burst_min	800		None
+sk_gunship_burst_size	15		None
+sk_gunship_health_increments	5		None
+sk_headcrab_fast_health	10		None
+sk_headcrab_health	10		None
+sk_headcrab_melee_dmg	5		None
+sk_headcrab_poison_health	35		None
+sk_healthcharger	50		None
+sk_healthkit	25		None
+sk_healthvial	10		None
+sk_helicopter_burstcount	12		Howmanyshotburststofireafterchargingup.Thebiggerthenumber,thelongerthefiringis
+sk_helicopter_drone_speed	450		Howfastdoesthezapperdronemove?
+sk_helicopter_firingcone	20		Theangleindegreesoftheconeinwhichtheshotswillbefired
+sk_helicopter_grenadedamage	30		Theamountofdamagethehelicoptergrenadedeals.
+sk_helicopter_grenadeforce	55000		Thephysicsforcethatthehelicoptergrenadeexerts.
+sk_helicopter_grenaderadius	275		Thedamageradiusofthehelicoptergrenade.
+sk_helicopter_health	5600		None
+sk_helicopter_roundsperburst	5		Howmanyshotstofireinasingleburst
+sk_homer_grenade_radius	100		None
+sk_ichthyosaur_health	200		None
+sk_ichthyosaur_melee_dmg	8		None
+sk_jeep_gauss_damage	15		None
+sk_manhack_health	25		None
+sk_manhack_melee_dmg	20		None
+sk_manhack_v2	1		None
+sk_max_357	12		Sizeofclip
+sk_max_alyxgun	150		Sizeofclip
+sk_max_ar2	60		Sizeofclip
+sk_max_ar2_altfire	3		Sizeofclip
+sk_max_buckshot	30		Sizeofclip
+sk_max_crossbow	10		Maxnumberofarrows
+sk_max_gauss_round	30		None
+sk_max_grenade	5		None
+sk_max_pistol	150		Sizeofclip
+sk_max_rpg_round	3		None
+sk_max_smg1	225		Sizeofclip
+sk_max_smg1_grenade	3		None
+sk_max_sniper_round	30		None
+sk_metropolice_health	40		None
+sk_metropolice_simple_health	26		None
+sk_metropolice_stitch_along_hitcount	2		None
+sk_metropolice_stitch_at_hitcount	1		None
+sk_metropolice_stitch_behind_hitcount	3		None
+sk_metropolice_stitch_distance	1000		None
+sk_metropolice_stitch_reaction	1		None
+sk_metropolice_stitch_tight_hitcount	2		None
+sk_npc_arm	1		None
+sk_npc_chest	1		None
+sk_npc_dmg_357	30		None
+sk_npc_dmg_airboat	3		None
+sk_npc_dmg_alyxgun	3		DamagedonetoNPCsfromweapon_alyxgun
+sk_npc_dmg_ar2	3		None
+sk_npc_dmg_buckshot	3		None
+sk_npc_dmg_combineball	15		None
+sk_npc_dmg_crossbow	10		None
+sk_npc_dmg_crowbar	5		None
+sk_npc_dmg_dropship	2		Dropshipcontainercannondamage.
+sk_npc_dmg_fraggrenade	75		None
+sk_npc_dmg_grenade	75		None
+sk_npc_dmg_gunship	40		None
+sk_npc_dmg_gunship_to_plr	3		None
+sk_npc_dmg_helicopter	6		Damagehelicoptershotsdealtoeverythingbuttheplayer
+sk_npc_dmg_helicopter_to_plr	3		Damagehelicoptershotsdealtotheplayer
+sk_npc_dmg_pistol	3		None
+sk_npc_dmg_rpg_round	50		None
+sk_npc_dmg_smg1	3		None
+sk_npc_dmg_smg1_grenade	50		None
+sk_npc_dmg_sniper_round	100		None
+sk_npc_dmg_stunstick	40		None
+sk_npc_head	3		None
+sk_npc_leg	1		None
+sk_npc_stomach	1		None
+sk_pathfollower_grenade_radius	0		None
+sk_player_arm	1		None
+sk_player_chest	1		None
+sk_player_head	3		None
+sk_player_leg	1		None
+sk_player_stomach	1		None
+sk_plr_dmg_357	40		None
+sk_plr_dmg_airboat	3		None
+sk_plr_dmg_alyxgun	5		Damagedonetoplayersfromweapon_alyxgun
+sk_plr_dmg_ar2	8		None
+sk_plr_dmg_buckshot	8		None
+sk_plr_dmg_crossbow	100		None
+sk_plr_dmg_crowbar	10		None
+sk_plr_dmg_fraggrenade	125		None
+sk_plr_dmg_grenade	150		None
+sk_plr_dmg_pistol	5		None
+sk_plr_dmg_rpg_round	100		None
+sk_plr_dmg_smg1	4		None
+sk_plr_dmg_smg1_grenade	100		None
+sk_plr_dmg_sniper_round	20		None
+sk_plr_dmg_stunstick	10		None
+sk_plr_grenade_drop_time	30		None
+sk_plr_health_drop_time	30		None
+sk_plr_num_shotgun_pellets	7		None
+sk_rollermine_shock	10		None
+sk_rollermine_stun_delay	3		None
+sk_rollermine_vehicle_intercept	1		None
+sk_scanner_dmg_dive	25		None
+sk_scanner_health	30		None
+sk_smg1_grenade_radius	250		None
+sk_stalker_health	50		None
+sk_stalker_melee_dmg	5		None
+sk_strider_health	350		None
+sk_strider_num_missiles1	5		None
+sk_strider_num_missiles2	7		None
+sk_strider_num_missiles3	7		None
+sk_suitcharger	75		Dedicatedtoboththefunc_rechargeandtheitem_suitchargerentity.
+sk_suitcharger_citadel	500		Dedicatedtoboththefunc_rechargeandtheitem_suitchargerentity.
+sk_suitcharger_citadel_maxarmor	200		Dedicatedtoboththefunc_rechargeandtheitem_suitchargerentity.
+sk_vortigaunt_armor_charge	30		None
+sk_vortigaunt_dmg_claw	10		None
+sk_vortigaunt_dmg_rake	25		None
+sk_vortigaunt_dmg_zap	50		None
+sk_vortigaunt_health	100		None
+sk_weapon_ar2_alt_fire_duration	2		None
+sk_weapon_ar2_alt_fire_mass	150		None
+sk_weapon_ar2_alt_fire_radius	10		None
+sk_zombie_dmg_both_slash	25		None
+sk_zombie_dmg_one_slash	10		None
+sk_zombie_health	50		None
+sk_zombie_poison_dmg_spit	20		None
+sk_zombie_poison_health	175		None
+skill	1		Gameskilllevel(1-3).
+slist			ListserversonyourLAN.
+slot0			None
+slot1			None
+slot10			None
+slot2			None
+slot3			None
+slot4			None
+slot5			None
+slot6			None
+slot7			None
+slot8			None
+slot9			None
+smoke_trail	1		None
+smoothstairs	1		Smoothplayereyezcoordinatewhenclimbingstairs.
+snapto			None
+snd_async_fullyasync	0		Allplaybackisfullyasync(sounddoesn'tplayuntildataarrives).
+snd_async_spew_blocking	0		Spewmessagetoconsoleanytimeasyncsoundloadingblocksonfilei/o.
+snd_disable_mixer_duck	0		None
+snd_duckerattacktime	0		None
+snd_duckerreleasetime	2		None
+snd_duckerthreshold	0		None
+snd_ducktovolume	0		None
+snd_flushasync			Flushallasync.wavdata
+snd_foliage_db_loss	4		None
+snd_gain	1		None
+snd_gain_max	1		None
+snd_gain_min	0		None
+snd_memasync			Showasyncmemorystats
+spec_track	0		Tracksanentityinspecmode
+snd_mixahead	0		None
+snd_mixvol			SetnamedMixgrouptomixvolume.
+snd_musicvolume	1		Musicvolume
+snd_noextraupdate	0		None
+snd_obscured_gain_dB	-2	Yes	None
+snd_pitchquality	1		None
+snd_profile	0		None
+snd_rebuildaudiocache			Rebuildsallaudiocaches(_other,_other_rebuild,_sharedprecache,levelcaches)fromreslists
+snd_refdb	60		None
+snd_refdist	36		None
+snd_restart			Restartsoundsystem.
+snd_show	0	Yes	Showsoundsinfo
+snd_showclassname	0		None
+snd_showmixer	0		None
+snd_showstart	0	Yes	None
+snd_soundmixer	0		None
+snd_surround_speakers	0		None
+snd_visualize	0	Yes	Showsoundslocationinworld
+snd_vox_captiontrace	0		Showssentencenameforsentenceswhicharesetnottoshowcaptions.
+snd_vox_globaltimeout	300		None
+snd_vox_sectimetout	300		None
+snd_vox_seqtimetout	300		None
+snd_writemanifest			Ifrunningagame,outputstheprecachemanifestforthecurrentlevel
+sndplaydelay			None
+sniperspeak	0		None
+sniperviewdist	35		None
+soundfade			Fadeclientvolume.
+soundinfo			Describethecurrentsounddevice.
+soundlist			Listallknownsounds.
+soundpatch_captionlength	2		Howlongloopingsoundpatchcaptionsshoulddisplayfor.
+soundscape_fadetime	3		Timetocrossfadesoundeffectsbetweensoundscapes
+soundscape_flush			Flushestheserver&clientsidesoundscapes
+speak			Playaconstructedsentence.
+spec_mode			Setspectatormode
+spec_next			Spectatenextplayer
+spec_player			Spectateplayerbyname
+spec_pos			dumppositionandanglestotheconsole
+spec_prev			Spectatepreviousplayer
+spec_scoreboard	0		None
++speed			None
+-speed			None
+spike			generatesafakespike
+startdemos			Playdemosindemosequence.
+startmovie			Startrecordingmovieframes.
+startupmenu			Opensinitialmenuscreenandloadsthebackgroundbsp,butonlyifnootherlevelisbeingloaded,andwe'renotindevelopermode.
+status			Displaymapandconnectionstatus.
+step_spline	0		None
+stop			Finishrecordingdemo.
+stopdemo			Stopplayingbackademo.
+stopsound			Stopsallplayingsounds
+stopsoundscape			Stopsallsoundscapeprocessingandfadescurrentloopingsounds
++strafe			None
+-strafe			None
+strider_always_use_procedural_height	0		None
+strider_ar2_altfire_dmg	25		None
+strider_distributed_fire	1		None
+strider_eyepositions	0		None
+strider_free_knowledge	0		None
+strider_free_pass_cover_dist	120		None
+strider_free_pass_duration	2		None
+strider_free_pass_move_tolerance	320		None
+strider_free_pass_refill_rate	0		None
+strider_free_pass_start_time	3		None
+strider_idle_test	0		None
+strider_immolate	0		None
+strider_pct_height_no_crouch_move	90		None
+strider_peek_eye_dist	1		None
+strider_peek_eye_dist_z	4		None
+strider_peek_time	0		None
+strider_peek_time_after_damage	4		None
+strider_show_cannonlos	0		None
+strider_show_focus	0		None
+strider_show_weapon_los_condition	0		None
+strider_show_weapon_los_z	0		None
+strider_test_height	0		None
+stuffcmds			Parsesandstuffscommandline+commandstocommandbuffer.
+suitvolume	0		None
+surfaceprop			Reportsthesurfacepropertiesatthecursor
+sv_accelerate	10		None
+sv_airaccelerate	10		None
+sv_allowdownload	1		Allowclientstodownloadfiles
+sv_allowupload	1		Allowclientstouploadcustomizationsfiles
+sv_alltalk	0		Playerscanhearallotherplayers,noteamrestrictions
+sv_alternateticks	0		None
+sv_autojump	0		None
+sv_autoladderdismount	1		Automaticallydismountfromladderswhenyoureachtheend(don'thaveto+USE).
+sv_autosave	1		Setto1tosavegameonleveltransition.Doesnotaffectautosavetriggers.
+sv_backspeed	0		Howmuchtoslowdownbackwardsmotion
+sv_bounce	0		Bouncemultiplierforwhenphysicallysimulatedobjectscollidewithotherobjects.
+sv_cacheencodedents	1		Ifsetto1,doesanoptimizationtopreventextraSendTable_Encodecalls.
+sv_cheats	0		Allowcheatsonserverifsetto1
+sv_contact	0		Contactemailforserversysop
+sv_debug_player_use	0		Visualizes+uselogic.Greencross=tracesuccess,Redcross=tracetoofar,Greenbox=radiussuccess
+sv_debugmanualmode	0		Makesureentitiescorrectlyreportwhetherornottheirnetworkdatahaschanged.
+sv_debugresponses	0		Showverbosematchingoutput(1forsimple,2forrulescoring)
+sv_deltaprint	0		PrintaccumulatedCalcDeltaprofilingdata(onlyifsv_deltatimeison)
+sv_downloadurl	0		AllowsDownloadingoffilesviaawebserver
+sv_deltatime	0		EnableprofilingofCalcDeltacalls
+sv_dumpresponses	0		Dumpallresponse_rules.txtandrules(requiresrestart)
+sv_filterban	1		SetpacketfilteringbyIPmode
+sv_findsoundname			Findsoundnameswhichreferencethespecifiedwavefiles.
+sv_footsteps	1		Playfootstepsoundforplayers
+sv_forcepreload	0		Forceserversidepreloading.
+sv_friction	4		Worldfriction.
+sv_gravity	600		Worldgravity.
+sv_hltv	0		EnablesHLTVonthisserver.
+sv_infinite_aux_power	0	Yes	None
+sv_instancebaselines	1		Enableinstancedbaselines.Savesnetworkoverhead.
+sv_ladderautomountdot	0		Whenauto-mountingaladderbylookingupitsaxis,thisisthetoleranceforlookingnowdirectlyalongtheladderaxis.
+sv_lan	0		Serverisalanserver(noheartbeat,noauthentication,nonon-classCaddresses,9999.0rate,etc.
+sv_logbans	0		Logserverbansintheserverlogs.
+sv_massreport	0		None
+sv_maxrate	0		Maxbandwidthrateallowedonserver,0==unlimited
+sv_maxspeed	320		None
+sv_maxunlag	1		Maximumlagcompensationinseconds
+sv_maxupdaterate	60		Maximumupdatespersecondthattheserverwillallow
+sv_maxvelocity	3500		Maximumspeedanyballisticallymovingobjectisallowedtoattainperaxis.
+sv_minrate	0		Minbandwidthrateallowedonserver,0==unlimited
+sv_minupdaterate	10		Minimumupdatespersecondthattheserverwillallow
+sv_netvisdist	10000	Yes	Testnetworkingvisibilitydistance
+sv_noclipaccelerate	5		None
+sv_noclipduringpause	0	Yes	Ifcheatsareenabled,thenyoucannoclipwiththegamepaused(fordoingscreenshots,etc.).
+sv_noclipspeed	5		None
+sv_npc_talker_maxdist	1024		NPCsoverthisdistancefromtheplayerwon'tattempttospeak.
+sv_password	0		Serverpasswordforentryintomultiplayergames
+sv_pausable	0		Istheserverpausable.
+sv_precachegeneric			Usage:sv_precachegeneric<name>[preload]
+
+Addfiletoprecachelist.
+sv_precacheinfo			Showprecacheinfo.
+sv_precachemodel			Usage:sv_precachemodel<name>[preload]
+
+Addmodeltoprecachelist.
+sv_precachesound			Usage:sv_precachesound<name>[preload]
+
+Addsoundtoprecachelist.
+sv_pushaway_clientside_size	15		Minimumsizeofpushbackobjects
+sv_rcon_banpenalty	0		Numberofminutestobanuserswhofailrconauthentication
+sv_rcon_maxfailures	10		Maxnumberoftimesausercanfailrconauthenticationbeforebeingbanned
+sv_rcon_minfailures	5		Numberoftimesausercanfailrconauthenticationinsv_rcon_minfailuretimebeforebeingbanned
+sv_rcon_minfailuretime	30		Numberofsecondstotrackfailedrconauthentications
+sv_region	-1		Theregionoftheworldtoreportthisserverin.
+sv_robust_explosions	1		None
+sv_rollangle	0		Maxviewrollangle
+sv_rollspeed	200		None
+sv_sendtables	0		Forcefullsendtablesendingpath.
+sv_show_crosshair_target	0		None
+sv_showhitboxes	-1	Yes	Sendserver-sidehitboxesforspecifiedentitytoclient(NOTE:thisuseslotsofbandwidth,useonlistenserveronly).
+sv_showladders	0		Showbboxanddismountpointsforallladders(mustbesetbeforelevelload.)
+sv_skyname	0		Currentnameoftheskyboxtexture
+sv_soundemitter_filecheck			Reportmissingwavefilesforsoundsandgame_soundsfiles.
+sv_soundemitter_flush			Flushesthesounds.txtsystem(serveronly)
+sv_soundemitter_trace	0		ShowallEmitSoundcallsincludingtheirsymbolicnameandtheactualwavefiletheyresolvedto
+sv_soundscape_printdebuginfo			printsoundscapes
+sv_specaccelerate	5		None
+sv_specnoclip	1		None
+sv_specspeed	3		None
+sv_stats	1		CollectCPUusagestats
+sv_stepsize	18		None
+sv_stopspeed	100		Minimumstoppingspeedwhenonground.
+sv_stressbots	0		Ifsetto1,theservercalculatesdataandfillspacketstobots.Usedforperftesting.
+sv_strict_notarget	0		Ifset,notargetwillcauseentitiestoneverthinktheyareinthepvs
+sv_suppress_viewpunch	0		None
+sv_teststepsimulation	1		None
+sv_thinktimecheck	0		Checkforthinktimesallonsametimestamp.
+sv_timeout	65		Afterthismanysecondswithoutamessagefromaclient,theclientisdropped
+sv_unlag	1		Enablesplayerlagcompensation
+sv_unlockedchapters	14		Highestunlockedgamechapter.
+sv_visiblemaxplayers	-1		Overridesthemaxplayersreportedtoprospectiveclients.
+sv_voicecodec	0		SpecifieswhichvoicecodecDLLtouseinagame.SettothenameoftheDLLwithouttheextension.
+sv_voiceenable	1		None
+sv_wateraccelerate	10		None
+sv_waterdist	12		Verticalviewfixupwheneyesarenearwaterplane.
+sv_waterfriction	1		None
+Commandsstartingwithletter"T"
+Command	Default	Cheat?	HelpText
+template_debug	0	No	None
+test_CreateEntity		Yes	None
+test_dispatcheffect		Yes	Testaclient-sidedispatcheffect.
+test_EHandle		Yes	None
+test_entity_blocker		Yes	Testcommandthatdropsanentityblockeroutinfrontoftheplayer.
+Test_InitRandomEntitySpawner		Yes	None
+test_Loop			Test_Loop<loopname>-loopbacktothespecifiedloopstartpointunconditionally.
+test_LoopCount			Test_LoopCount<loopname><count>-loopbacktothespecifiedloopstartpointthespecified#oftimes.
+test_LoopForNumSeconds			Test_LoopForNumSeconds<loopname></code>-loopbacktothespecifiedstartpointforthespecified#ofseconds.
+test_nav_opt	1		None
+test_ProxyToggle_EnableProxy		Yes	None
+test_ProxyToggle_EnsureValue		Yes	None
+test_ProxyToggle_SetValue		Yes	None
+test_RandomChance		Yes	<code>Test_RandomChance<percentchance,0-100><token1><token2...></code>-rollthediceandmayberunthecommandfollowingthepercentagechance
+test_RandomizeInPVS		Yes	None
+test_RandomPlayerPosition		Yes	None
+test_RemoveAllRandomEntities		Yes	None
+Test_RunFrame		Yes	None
+test_SendKey		Yes	None
+test_SpawnRandomEntities		Yes	None
+test_StartLoop			<code>Test_StartLoop<loopname></code>-denotethestartofaloop(Definesanamedpointyoucanjumpto)
+test_StartScript			Startatestscript
+test_Wait			None
+test_WaitForCheckPoint			None
+testhudanim		Yes	TestaHUDelementanimation.Arguments:<code><animname></code>
+testscript_debug	0	No	Debugtestscripts.
+texture_budget_background_alpha	128	No	Howtranslucentthebudgetpanelis
+texture_budget_panel_bottom_of_history_fraction]]	0	No	Numberbetween0and1
+texture_budget_panel_global	0	No	Showglobaltimesinthetexturebudgetpanel.
+texture_budget_panel_height	284	No	Heightinpixelsofthebudgetpanel
+texture_budget_panel_width	512	No	Widthinpixelsofthebudgetpanel
+texture_budget_panel_x	0	No	Numberofpixelsfromtheleftsideofthegamescreentodrawthebudgetpanel
+texture_budget_panel_y	450	No	Numberofpixelsfromthetopsideofthegamescreentodrawthebudgetpanel
+think_limit	0	No	Maximumthinktimeinmilliseconds,warningisprintedifthisisexceeded.
+thirdperson		Yes	Switchtothirdpersoncamera
+timedemo		No	Playademoandreportperformanceinfo.
+timedemoquit		No	Playademo,reportperformanceinfo,andthenexit
+timerefresh		Yes	Profiletherenderer.
+toggleconsole		No	Show/hidetheconsole
+trace_report	0	No	None
+tracer_extra	1	No	None
+Commandsstartingwithletter"U"
+Command	Default	Cheat?	HelpText
+unbind		No	Unbindakey.
+
+Arguments:<code><key></code>
+unbindall		No	Unbindallkeys.
+unpause		No	Unpausethegame.
++use		No	None
+-use		No	None
+use		No	Useaparticularweapon.
+
+Arguments:<code><weapon_name></code>
+user		No	Showuserdata.
+users		No	Showuserinfoforplayersonserver.
+Commandsstartingwithletter"V"
+Command	Default	Cheat?	HelpText
+v_centermove	0		None
+v_centerspeed	500		None
+v_ipitch_cycle	1		None
+v_ipitch_level	0		None
+v_iroll_cycle	0		None
+v_iroll_level	0		None
+v_iyaw_cycle	2		None
+v_iyaw_level	0		None
+vcollide_wireframe	0	Yes	None
+vcollide_wireframe_axes	0		None
+version			Printversioninfostring.
+vgui_drawfocus	0		Reportwhichpanelisunderthemouse.
++vgui_drawtree			None
+-vgui_drawtree			None
+vgui_drawtree	0	Yes	DrawstheVGUIpanelhierarchytothespecifieddepthlevel.
+vgui_drawtree_clear			None
+vgui_drawtree_freeze	0		Setto1tostopupdatingthe<code>vgui_drawtree</code>view.
+vgui_drawtree_hidden	0		Drawthehiddenpanels.
+vgui_drawtree_panelalpha	0		Showthepanelalphavaluesinthe<code>vgui_drawtree</code>view.
+vgui_drawtree_panelptr	0		Showthepanelpointervaluesinthe<code>vgui_drawtree</code>view.
+vgui_drawtree_popupsonly	0		DrawstheVGUIpopuplistinhierarchy(1)ormostrecentlyused(2)order.
+vgui_drawtree_render_order	0		Listthe<code>vgui_drawtree</code>panelsinrenderorder.
+vgui_drawtree_visible	1		Drawthevisiblepanels.
+vgui_togglepanel			show/hideVGUIpanelbyname.
+viewmodel_fov	54	Yes	None
+violence_ablood	1		Drawalienblood
+violence_agibs	1		Showaliengibentities
+violence_hblood	1		Drawhumanblood
+violence_hgibs	1		Showhumangibentities
+voice_avggain	0		None
+voice_clientdebug	0		None
+voice_dsound	0		None
+voice_enable	1		None
+voice_fadeouttime	0		None
+voice_forcemicrecord	1		None
+voice_inputfromfile	0		Getvoiceinputfrom"<code>voice_input.wav</code>"ratherthanfromthemicrophone.
+voice_loopback	0		None
+voice_maxgain	10		None
+voice_modenable	1		Enable/disablevoiceinthismod.
+voice_overdrive	2		None
+voice_overdrivefadetime	0		None
+voice_profile	0		None
+voice_recordtofile	0		Recordmicdataanddecompressedvoicedatainto"<code>voice_micdata.wav</code>"and"<code>voice_decompressed.wav</code>".
+voice_scale	1		None
+voice_serverdebug	0		None
+voice_showchannels	0		None
+voice_showincoming	0		None
+voice_steal	2		None
++voicerecord			None
+-voicerecord			None
+volume	1		Soundvolume.
+vox_reload			Reload<code>sentences.txt</code>file.
+voxeltree_box			Viewentitiesinthevoxel-treeinsidebox<code><Vector(min),Vector(max)></code>;.
+voxeltree_playerview			Viewentitiesinthevoxel-treeattheplayerposition.
+voxeltree_sphere			Viewentitiesinthevoxel-treeinsidesphere<code><Vector(center),float(radius)></code>.
+voxeltree_view			Viewentitiesinthevoxel-tree.
+vprof			ToggleVProfprofiler.
+vprof_adddebuggroup1			Addanewbudgetgroupdynamicallyfordebugging.
+vprof_cachemiss			ToggleVProfcachemisschecking.
+vprof_cachemiss_off			TurnoffVProfcachemisschecking.
+vprof_cachemiss_on			TurnonVProfcachemisschecking.
+vprof_child			None
+vprof_collapse_all			CollapsethewholeVProftree.
+vprof_counters	0		None
+vprof_dump_groupnames			WritethenamesofalloftheVProfgroupstotheconsole.
+vprof_dump_spikes	0		FramerateatwhichVProfwillbegintodumpspikestotheconsole."0"-disabled.
+vprof_expand_all			ExpandthewholeVProftree.
+vprof_expand_group			ExpandabudgetgroupintheVProftreebyname.
+vprof_generate_report			Generateareporttotheconsole.
+vprof_generate_report_AI			Generateareporttotheconsole.
+vprof_generate_report_AI_only			Generateareporttotheconsole.
+vprof_generate_report_hierarchy			Generateareporttotheconsole.
+vprof_generate_report_map_load			Generateareporttotheconsole.
+vprof_graph	0		DrawtheVProfgraph.
+vprof_graphheight	256		None
+vprof_graphwidth	512		None
+vprof_nextsibling			None
+vprof_off			TurnoffVProfprofiler.
+vprof_on			TurnonVProfprofiler.
+vprof_parent			None
+vprof_playback_start			Startplayingbackarecorded<code>.vprof</code>file.
+vprof_playback_step			Whileplayingbacka<code>.vprof</code>file,steptothenexttick.
+vprof_playback_stop			None
+vprof_prevsibling			None
+vprof_record_start			StartrecordingVProfdataforplaybacklater.
+vprof_record_stop			None
+vprof_remote_start			RequestaVProfdatastreamfromtheremoteserver(requiresauthentication)
+vprof_remote_stop			StopanexistingremoteVProfdatarequest
+vprof_reset			ResetthestatsinVProfprofiler
+vprof_reset_peaks			ResetjustthepeaktimeinVProfprofiler.
+vprof_scope	0		Setaspecificscopetostartshowingvproftree.
+vprof_unaccounted_limit	0		NumberofmillisecondsthatanodemustexceedtoturnredintheVProfpanel.
+vprof_verbose	1		Settoonetoshowaverageandpeaktimes.
+vprof_vtune_group			EnableVTuneforaparticularVProfgroup("<code>disable</code>"todisable).
+vtune			ControlsVTune'ssampling.
+Commandsstartingwithletter"W"
+Command	Default	Cheat?	HelpText
+wait			Stopcommandparsinguntilnextframe.
++walk			None
+-walk			None
+wc_air_edit_further			WheninWCeditmodeandeditingairnodes,movespositionofairnodecrosshairandplacementlocationfurtherawayfromplayer.
+wc_air_edit_nearer			WheninWCeditmodeandeditingairnodes,movespositionofairnodecrosshairandplacementlocationnearertofromplayer.
+wc_air_node_edit			WheninWCeditmode,toggleslayingdownorairnodesinsteadofgroundnodes.
+wc_create			WheninWCeditmode,createsanodewheretheplayerislookingifanodeisallowedatthatlocationforthecurrentlyselectedhullsize(see<code>ai_next_hull</code>).
+wc_destroy			WheninWCeditmode,destroysthenodethattheplayerisnearesttolookingat(thenodewillbehighlightedbyaredbox).
+wc_destroy_undo			WheninWCeditmoderestoresthelastdeletednode.
+wc_link_edit			None
+wc_update_entity			Updatestheentity'sposition/angleswhenineditmode.Obsolete.Hasbeendiscontinuedandreplacedbytheapparentlyidenticalhammer_update_entityinOrangeBoxgames.
+weapon_showproficiency	0		None
+writeid			Writesalistofpermanently-banneduserIDsto<code>banned_user.cfg</code>.
+writeip			Savethebanlistto<code>banned_ip.cfg</code>.
+Commandsstartingwithletter"Z"
+Command	Default	Cheat?	HelpText
+zombie_ambushdist	16000	No	None
+zombie_basemax	100	No	None
+zombie_basemin	100	No	None
+zombie_changemax	0	No	None
+zombie_changemin	0	No	None
+zombie_decaymax	0	No	None
+zombie_decaymin	0	No	None
+zombie_moanfreq	1	No	None
+zombie_stepfreq	4	No	None
++zoom		No	ActivatestheHalf-Life2suitzoom
+-zoom		No	DeactivatestheHalf-Life2suitzoom
+zoom_sensitivity_ratio	1	No	AdditionalmousesensitivityscalefactorappliedwhenFOViszoomedin.
